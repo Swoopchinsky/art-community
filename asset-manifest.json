@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/art-community/static/css/main.836ce4a0.css",
+    "main.js": "/art-community/static/js/main.b72392ea.js",
+    "static/media/fon.jpg": "/art-community/static/media/fon.9741e37087f28c4dd23a.jpg",
+    "index.html": "/art-community/index.html",
+    "main.836ce4a0.css.map": "/art-community/static/css/main.836ce4a0.css.map",
+    "main.b72392ea.js.map": "/art-community/static/js/main.b72392ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.836ce4a0.css",
+    "static/js/main.b72392ea.js"
+  ]
+}
