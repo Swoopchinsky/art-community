@@ -75,6 +75,7 @@ info .infoblock {
 info .infoblock::after {
     content: 'Быстро и Просто';
     position: absolute;
+    width: 1500px;
     top: 940px;
     left: 440px;
     color: #9ec59a;
@@ -83,6 +84,7 @@ info .infoblock::after {
 info .infoblock::before {
     content: 'Развертывание и Поддержка';
     position: absolute;
+    width: 1500px;
     top: 1330px;
     left: 1030px;
     color: #9ec59a;
