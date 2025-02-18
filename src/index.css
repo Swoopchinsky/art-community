@@ -62,16 +62,16 @@ header .presentation::before {
 header .menu {
     float: right;
     font-size: 50px;
-    color: #742310;
+    color: #555bad;
     cursor: pointer;
     transition: color 500ms ease;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 header .menu:hover,
 header .menu.active {
-    color: #c4fa60;
-    font-size: 54px;
+    color: #ef0d0d;
+    font-size: 52px;
 }
 
 header .pers {
@@ -80,13 +80,13 @@ header .pers {
     color: #230f0b;
     cursor: pointer;
     transition: color 500ms ease;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 header .pers:hover,
 header .pers.active {
-    color: #d8ef09;
-    font-size: 54px;
+    color: #ef0d0d;
+    font-size: 52px;
 }
 
 header .goo {
@@ -95,14 +95,14 @@ header .goo {
     color: #e1e6e0;
     cursor: pointer;
     transition: color 500ms ease;
-    margin-right: 20px;
+    margin-right: 50px;
 
 }
 
 header .goo:hover,
 header .goo.active {
     color: #ef0d0d;
-    font-size: 54px;
+    font-size: 52px;
 }
 
 .info {
