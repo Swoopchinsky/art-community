@@ -59,6 +59,52 @@ header .presentation::before {
     color: #9ec59a;
 }
 
+header .menu {
+    float: right;
+    font-size: 50px;
+    color: #742310;
+    cursor: pointer;
+    transition: color 500ms ease;
+    margin-right: 20px;
+}
+
+header .menu:hover,
+header .menu.active {
+    color: #c4fa60;
+    font-size: 54px;
+}
+
+header .pers {
+    float: right;
+    font-size: 50px;
+    color: #230f0b;
+    cursor: pointer;
+    transition: color 500ms ease;
+    margin-right: 20px;
+}
+
+header .pers:hover,
+header .pers.active {
+    color: #d8ef09;
+    font-size: 54px;
+}
+
+header .goo {
+    float: right;
+    font-size: 50px;
+    color: #e1e6e0;
+    cursor: pointer;
+    transition: color 500ms ease;
+    margin-right: 20px;
+
+}
+
+header .goo:hover,
+header .goo.active {
+    color: #ef0d0d;
+    font-size: 54px;
+}
+
 .info {
     font-size: 40px;
     padding-left: 350px;
