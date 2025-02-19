@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/art-community/static/css/main.a2e6f2ea.css",
-    "main.js": "/art-community/static/js/main.e13924a6.js",
+    "main.css": "/art-community/static/css/main.83605de8.css",
+    "main.js": "/art-community/static/js/main.9569e9ec.js",
     "static/media/fon.jpg": "/art-community/static/media/fon.9741e37087f28c4dd23a.jpg",
     "static/media/fon2.jpg": "/art-community/static/media/fon2.b602cf2855cb01d8d2ea.jpg",
     "index.html": "/art-community/index.html",
-    "main.a2e6f2ea.css.map": "/art-community/static/css/main.a2e6f2ea.css.map",
-    "main.e13924a6.js.map": "/art-community/static/js/main.e13924a6.js.map"
+    "main.83605de8.css.map": "/art-community/static/css/main.83605de8.css.map",
+    "main.9569e9ec.js.map": "/art-community/static/js/main.9569e9ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2e6f2ea.css",
-    "static/js/main.e13924a6.js"
+    "static/css/main.83605de8.css",
+    "static/js/main.9569e9ec.js"
   ]
 }
