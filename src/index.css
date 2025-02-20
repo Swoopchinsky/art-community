@@ -53,7 +53,7 @@ header .presentation::after {
 }
 
 header .presentation::before {
-    content: 'IT Tehnology';
+    content: 'absolute control of information';
     position: absolute;
     top: 540px;
     left: 222px;
