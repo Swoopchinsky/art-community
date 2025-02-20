@@ -148,7 +148,6 @@ header .iga1 {
     background-color: #fdeda1;
     padding: 6px;
     border-radius: 30px;
-
     transition: color, transform 500ms ease;
 }
 
