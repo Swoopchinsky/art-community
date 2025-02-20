@@ -53,11 +53,11 @@ header .presentation::after {
 }
 
 header .presentation::before {
-    content: 'absolute control of information';
+    content: 'Absolute Control of Information';
     position: absolute;
     top: 540px;
     left: 222px;
-    width: 400px;
+    width: 800px;
     font-size: 48px;
     font-weight: 600px;
     color: #f1f2e5;
