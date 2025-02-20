@@ -4,6 +4,8 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { GiGoose } from "react-icons/gi";
 import { GiMuscleUp } from "react-icons/gi";
 import { BsTelephone } from "react-icons/bs";
+import { GiScrollUnfurled } from "react-icons/gi";
+import { GiRotaryPhone } from "react-icons/gi";
 
 export default function Header() {
     let [nigaYo, setNigaYo] = useState(false)
@@ -12,6 +14,9 @@ export default function Header() {
 
     let [nigaYo3, setNigaYo3] = useState(false)
     let [nigaYo4, setNigaYo4] = useState(false)
+
+    let [nigaYo5, setNigaYo5] = useState(false)
+    let [nigaYo6, setNigaYo6] = useState(false)
     return (
         <header>
             <div>
@@ -31,11 +36,25 @@ export default function Header() {
                             {nigaYo4 && (
                                 <div className='tel1'>
                                     8 921 593 63 24 Sankt-Petersburg:
-                                    SberBank:
                                 </div>
                             )}
                         </div>
 
+
+                    )}
+                    <div className='dim'>Dima Masterpisman</div>
+                    <GiScrollUnfurled onClick={() => setNigaYo5(nigaYo5 = !nigaYo5)} className={`dim1 ${nigaYo5 && 'active'}`} />
+                    {nigaYo5 && (
+                        <div className='dim2'>
+                            Дизайн Интерьеров. Техническая Документация и сопровождение проекта.
+                            Репетиторство: подготовка к поступлению в Художественные ВУЗы.
+                            <GiRotaryPhone onClick={() => setNigaYo6(nigaYo6 = !nigaYo6)} className={`tel2 ${nigaYo6 && 'active'}`} />
+                            {nigaYo6 && (
+                                <div className='tel3'>
+                                    8 921 593 63 24 Sankt-Petersburg:
+                                </div>
+                            )}
+                        </div>
                     )}
 
                 </div>

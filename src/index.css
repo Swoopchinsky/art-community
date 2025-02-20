@@ -179,7 +179,7 @@ header .tel {
     border-radius: 28px;
     cursor: pointer;
     transition: color, transform 500ms ease;
-    margin-left: 90px;
+    margin-left: 190px;
 
 
 }
@@ -193,6 +193,79 @@ header .tel.active {
 
 header .tel1 {
     background-color: #c8f6c2;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 30px;
+    -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+}
+
+header .dim {
+    font-size: 48px;
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    margin: 10px;
+    padding: 6px;
+    border-radius: 30px;
+    background-color: #d6fab4;
+}
+
+header .dim1 {
+    font-size: 60px;
+    cursor: pointer;
+    position: absolute;
+    top: 200px;
+    left: 560px;
+    color: #0d0a02;
+    background-color: #d6fab4;
+    padding: 6px;
+    border-radius: 30px;
+    transition: color, transform 500ms ease;
+}
+
+header .dim1:hover,
+header .dim1.active {
+    color: #7e951a;
+    transform: scale(1.5);
+}
+
+header .dim2 {
+    font-size: 60px;
+    position: absolute;
+    left: 640px;
+    width: 700px;
+    height: 766px;
+    padding-left: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    background-color: #c1f7bc;
+}
+
+header .tel2 {
+    font-size: 60px;
+    color: #0a1709;
+    background-color: #a8eb89;
+    padding: 12px;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+    margin-left: 510px;
+    margin-top: 30px;
+}
+
+header .tel2:hover,
+header .tel2.active {
+    color: #91e686;
+    background-color: #ecfb66;
+    transform: scale(1.5);
+}
+
+header .tel3 {
+    background-color: #bff39b;
     padding: 10px;
     padding-left: 20px;
     border-radius: 30px;
