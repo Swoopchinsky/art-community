@@ -25,7 +25,7 @@ export default function Header() {
                     <GiMuscleUp onClick={() => setNigaYo3(nigaYo3 = !nigaYo3)} className={`iga1 ${nigaYo3 && 'active'}`} />
                     {nigaYo3 && (
                         <div className='iga2'>
-                            Разработка Web сайток при помощи JavaScript технологии ReactJS. Размещение на Хостинге GitHub Pages.
+                            Разработка Web сайтов при помощи JavaScript технологии ReactJS. Размещение на Хостинге GitHub Pages.
                             Также составление графиков на Python, библиотека matplotlib.
                             <BsTelephone onClick={() => setNigaYo4(nigaYo4 = !nigaYo4)} className={`tel ${nigaYo4 && 'active'}`} />
                             {nigaYo4 && (
