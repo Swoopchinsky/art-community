@@ -80,7 +80,7 @@ header .menu.active {
 header .menu1 {
     position: absolute;
     top: 120px;
-    left: 120px;
+    left: 150px;
     width: 740px;
     height: 766px;
     background-color: #ddd4f7;
@@ -96,7 +96,7 @@ header .pers {
     color: #230f0b;
     cursor: pointer;
     transition: color, transform 500ms ease;
-    margin-left: 40px;
+    margin-left: 90px;
 
 }
 
@@ -109,7 +109,7 @@ header .pers.active {
 header .pers1 {
     position: absolute;
     top: 120px;
-    left: 0;
+    left: 76px;
     width: 740px;
     height: 766px;
     background-color: #f7e5d4;
@@ -118,6 +118,87 @@ header .pers1 {
     box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     border-radius: 30px;
     z-index: 1000;
+}
+
+header .pers2 {
+    font-size: 56px;
+    color: #966e09;
+    position: absolute;
+    left: 250px;
+}
+
+header .iga {
+    font-size: 48px;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    margin: 10px;
+    padding: 6px;
+    border-radius: 30px;
+    background-color: #fdeda1;
+}
+
+header .iga1 {
+    font-size: 60px;
+    position: absolute;
+    top: 100px;
+    left: 620px;
+    color: #0d0a02;
+    background-color: #fdeda1;
+    padding: 6px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+
+header .iga1:hover,
+header .iga1.active {
+    color: #f87e04;
+    transform: scale(1.5);
+}
+
+header .iga2 {
+    font-size: 60px;
+    position: absolute;
+    left: 740px;
+    width: 740px;
+    height: 766px;
+    padding-left: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    background-color: #f8f4c2;
+}
+
+header .tel {
+    font-size: 60px;
+    color: #0a1709;
+    background-color: #daf59b;
+    padding: 12px;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+    margin-left: 90px;
+
+
+}
+
+header .tel:hover,
+header .tel.active {
+    color: #237918;
+    background-color: #fdeda1;
+    transform: scale(1.5);
+}
+
+header .tel1 {
+    background-color: #c8f6c2;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 30px;
+    -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
 }
 
 header .goo {
