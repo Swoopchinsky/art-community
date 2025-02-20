@@ -307,6 +307,22 @@ zaliv .zalblock {
     position: relative;
 }
 
+.lego {
+    font-size: 60px;
+    padding-left: 360px;
+    margin-top: 40px;
+}
+
+lego .legoblock {
+    background: url('./Img/fon6.jpg') no-repeat;
+    border-radius: 40px;
+    left: 200px;
+    width: 1000px;
+    height: 580px;
+    font-size: 55px;
+    position: relative;
+}
+
 footer {
     text-align: center;
     margin-top: 20px;

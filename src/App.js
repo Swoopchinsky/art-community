@@ -4,6 +4,7 @@ import Info from "./commponents/Info";
 import Zima from "./commponents/Zima";
 import Vavilon from "./commponents/Vavilon";
 import Zaliv from "./commponents/Zaliv";
+import Lego from "./commponents/Lego";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Zima />
       <Vavilon />
       <Zaliv />
+      <Lego />
       <Footer />
 
     </div>
