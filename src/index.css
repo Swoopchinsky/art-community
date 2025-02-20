@@ -80,8 +80,8 @@ header .menu.active {
 header .menu1 {
     position: absolute;
     top: 120px;
-    left: 150px;
-    width: 740px;
+    left: 120px;
+    width: 700px;
     height: 766px;
     background-color: #ddd4f7;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
@@ -109,8 +109,8 @@ header .pers.active {
 header .pers1 {
     position: absolute;
     top: 120px;
-    left: 76px;
-    width: 740px;
+    left: 18px;
+    width: 700px;
     height: 766px;
     background-color: #f7e5d4;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
@@ -142,7 +142,7 @@ header .iga1 {
     font-size: 60px;
     position: absolute;
     top: 100px;
-    left: 620px;
+    left: 560px;
     color: #0d0a02;
     background-color: #fdeda1;
     padding: 6px;
@@ -160,8 +160,8 @@ header .iga1.active {
 header .iga2 {
     font-size: 60px;
     position: absolute;
-    left: 740px;
-    width: 740px;
+    left: 640px;
+    width: 700px;
     height: 766px;
     padding-left: 30px;
     border-radius: 30px;
