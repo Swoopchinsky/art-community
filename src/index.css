@@ -181,6 +181,51 @@ info .infoblock::before {
     color: #9ec59a;
 }
 
+.zima {
+    font-size: 60px;
+    padding-left: 100px;
+    margin-top: 40px;
+}
+
+zima .zimablock {
+    background: url('./Img/fon3.jpg');
+    border-radius: 30px;
+    width: 100%;
+    height: 490px;
+    font-size: 55px;
+    position: relative;
+}
+
+.vav {
+    font-size: 60px;
+    padding-left: 240px;
+    margin-top: 40px;
+}
+
+vavilon .vavblock {
+    background: url('./Img/fon4.jpg');
+    border-radius: 30px;
+    width: 100%;
+    height: 720px;
+    font-size: 55px;
+    position: relative;
+}
+
+.zal {
+    font-size: 60px;
+    padding-left: 200px;
+    margin-top: 40px;
+}
+
+zaliv .zalblock {
+    background: url('./Img/fon5.jpg');
+    border-radius: 30px;
+    width: 100%;
+    height: 720px;
+    font-size: 55px;
+    position: relative;
+}
+
 footer {
     text-align: center;
     margin-top: 20px;
