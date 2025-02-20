@@ -22,7 +22,7 @@ export default function Header() {
                 <div className='pers1'>
                     <div className='pers2'>Команда</div>
                     <div className='iga'>Garri Looking</div>
-                    <GiMuscleUp onClick={() => setNigaYo3(nigaYo = !nigaYo)} className={`iga1 ${nigaYo3 && 'active'}`} />
+                    <GiMuscleUp onClick={() => setNigaYo3(nigaYo3 = !nigaYo3)} className={`iga1 ${nigaYo3 && 'active'}`} />
                     {nigaYo3 && (
                         <div className='iga2'>
                             Разработка Web сайток при помощи JavaScript технологии ReactJS. Размещение на Хостинге GitHub Pages.
