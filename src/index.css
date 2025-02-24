@@ -282,7 +282,7 @@ header .il {
     margin: 10px;
     padding: 6px;
     border-radius: 30px;
-    background-color: #b2eba8;
+    background-color: #d5ffd7;
 }
 
 header .il1 {
@@ -292,7 +292,7 @@ header .il1 {
     top: 300px;
     left: 560px;
     color: #0d0a02;
-    background-color: #b2eba8;
+    background-color: #d5ffd7;
     padding: 6px;
     border-radius: 30px;
     transition: color, transform 500ms ease;
@@ -300,8 +300,8 @@ header .il1 {
 
 header .il1:hover,
 header .il1.active {
-    color: #2a781c;
-    background-color: #b2eba8;
+    color: #6cb576;
+    background-color: #d5ffd7;
     transform: scale(1.4);
 }
 
@@ -316,14 +316,14 @@ header .il2 {
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
-    background-color: #b2eba8;
+    background-color: #d5ffd7;
 }
 
 header .tel4 {
     font-size: 60px;
     color: #0a1709;
     position: absolute;
-    background-color: #cbfab6;
+    background-color: #d5ffd7;
     padding: 12px;
     border-radius: 28px;
     cursor: pointer;
@@ -335,13 +335,13 @@ header .tel4 {
 
 header .tel4:hover:hover,
 header .tel4.active {
-    color: #91e686;
-    background-color: #69aa53;
+    color: #d5ffd7;
+    background-color: #6cb576;
     transform: scale(1.4);
 }
 
 header .tel5 {
-    background-color: #b2eba8;
+    background-color: #d5ffd7;
     padding: 10px;
     padding-left: 20px;
     margin-top: 48px;
