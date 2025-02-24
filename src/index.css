@@ -10,7 +10,7 @@ body {
     background: #eef9e2;
     color: #070f10;
     font-family: "Permanent Marker", "Monomakh", serif;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .wrapper {
@@ -228,7 +228,7 @@ header .dim1 {
 header .dim1:hover,
 header .dim1.active {
     color: #7e951a;
-    transform: scale(1.5);
+    transform: scale(1.4);
 }
 
 header .dim2 {
@@ -261,13 +261,90 @@ header .tel2:hover,
 header .tel2.active {
     color: #91e686;
     background-color: #ecfb66;
-    transform: scale(1.5);
+    transform: scale(1.4);
 }
 
 header .tel3 {
     background-color: #d6fab4;
     padding: 10px;
     padding-left: 20px;
+    border-radius: 30px;
+    -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+}
+
+header .il {
+    font-size: 48px;
+    position: absolute;
+    top: 280px;
+    left: 30px;
+    margin: 10px;
+    padding: 6px;
+    border-radius: 30px;
+    background-color: #b2eba8;
+}
+
+header .il1 {
+    font-size: 60px;
+    cursor: pointer;
+    position: absolute;
+    top: 300px;
+    left: 560px;
+    color: #0d0a02;
+    background-color: #b2eba8;
+    padding: 6px;
+    border-radius: 30px;
+    transition: color, transform 500ms ease;
+}
+
+header .il1:hover,
+header .il1.active {
+    color: #2a781c;
+    background-color: #b2eba8;
+    transform: scale(1.4);
+}
+
+header .il2 {
+    font-size: 60px;
+    position: absolute;
+    left: 640px;
+    width: 700px;
+    height: 766px;
+    padding-left: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    background-color: #b2eba8;
+}
+
+header .tel4 {
+    font-size: 60px;
+    color: #0a1709;
+    position: absolute;
+    background-color: #cbfab6;
+    padding: 12px;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+    margin-left: 568px;
+    margin-top: -50px;
+
+}
+
+header .tel4:hover:hover,
+header .tel4.active {
+    color: #91e686;
+    background-color: #69aa53;
+    transform: scale(1.4);
+}
+
+header .tel5 {
+    background-color: #b2eba8;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 48px;
     border-radius: 30px;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);

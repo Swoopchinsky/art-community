@@ -6,6 +6,8 @@ import { GiMuscleUp } from "react-icons/gi";
 import { BsTelephone } from "react-icons/bs";
 import { GiScrollUnfurled } from "react-icons/gi";
 import { GiRotaryPhone } from "react-icons/gi";
+import { GiZigzagTune } from "react-icons/gi";
+import { GiMadScientist } from "react-icons/gi";
 
 export default function Header() {
     let [nigaYo, setNigaYo] = useState(false)
@@ -17,6 +19,10 @@ export default function Header() {
 
     let [nigaYo5, setNigaYo5] = useState(false)
     let [nigaYo6, setNigaYo6] = useState(false)
+
+    let [nigaYo7, setNigaYo7] = useState(false)
+    let [nigaYo8, setNigaYo8] = useState(false)
+
     return (
         <header>
             <div>
@@ -37,7 +43,7 @@ export default function Header() {
                                 <div className='tel1'>
                                     8 921 593 63 24
                                     Игарян
-                                    Sankt-Petersburg
+                                    Санкт-Петерберг
                                 </div>
                             )}
                         </div>
@@ -53,13 +59,37 @@ export default function Header() {
                             <GiRotaryPhone onClick={() => setNigaYo6(nigaYo6 = !nigaYo6)} className={`tel2 ${nigaYo6 && 'active'}`} />
                             {nigaYo6 && (
                                 <div className='tel3'>
-                                    8 921 593 63 24
-                                    спросить Дмитрия Юрича _________
-                                    Sankt-Petersburg
+                                    __8 921 593 63 24__
+                                    __Дмитрий Юрич __
+                                    __Санкт-Петербург__
                                 </div>
                             )}
                         </div>
                     )}
+                    <div className='il'>Ilioos Yohan</div>
+                    <GiZigzagTune onClick={() => setNigaYo7(nigaYo7 = !nigaYo7)} className={`il1 ${nigaYo7 && 'active'}`} />
+                    {nigaYo7 && (
+                        <div className='il2'>
+                            <ul>
+                                Звукообработка.
+                                Современный подход к Классическому Стилю.
+                                Использование Новейших Программ.
+                                Запись Музыки на Заказ.
+                                Индивидуальный подхок.
+                                Совместная работа.
+                            </ul>
+                            <GiMadScientist onClick={() => setNigaYo8(nigaYo8 = !nigaYo8)} className={`tel4 ${nigaYo8 && 'active'}`} />
+                            {nigaYo8 && (
+                                <div className='tel5'>
+                                    __8 968 188 60 13__
+                                    __Илья Дмитрич __
+                                    __Санкт-Петербург__
+                                </div>
+                            )}
+                        </div>
+                    )}
+
+
 
                 </div>
             )}
