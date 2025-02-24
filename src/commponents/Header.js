@@ -8,6 +8,8 @@ import { GiScrollUnfurled } from "react-icons/gi";
 import { GiRotaryPhone } from "react-icons/gi";
 import { GiZigzagTune } from "react-icons/gi";
 import { GiMadScientist } from "react-icons/gi";
+import { GiPalmTree } from "react-icons/gi";
+import { GiTreeGrowth } from "react-icons/gi";
 
 export default function Header() {
     let [nigaYo, setNigaYo] = useState(false)
@@ -22,6 +24,9 @@ export default function Header() {
 
     let [nigaYo7, setNigaYo7] = useState(false)
     let [nigaYo8, setNigaYo8] = useState(false)
+
+    let [nigaYo9, setNigaYo9] = useState(false)
+    let [nigaYo10, setNigaYo10] = useState(false)
 
     return (
         <header>
@@ -75,7 +80,7 @@ export default function Header() {
                                 Современный подход к Классическому Стилю.
                                 Использование Новейших Программ.
                                 Запись Музыки на Заказ.
-                                Индивидуальный подхок.
+                                Пишет Музыку с 8 лет.
                                 Совместная работа.
                             </ul>
                             <GiMadScientist onClick={() => setNigaYo8(nigaYo8 = !nigaYo8)} className={`tel4 ${nigaYo8 && 'active'}`} />
@@ -83,14 +88,25 @@ export default function Header() {
                                 <div className='tel5'>
                                     __8 968 188 60 13__
                                     __Илья Дмитрич __
-                                    __Санкт-Петербург__
+                                    Санкт-Петербург
                                 </div>
                             )}
                         </div>
                     )}
-
-
-
+                    <div className='an'>Andrey Skok</div>
+                    <GiPalmTree onClick={() => setNigaYo9(nigaYo9 = !nigaYo9)} className={`an1 ${nigaYo9 && 'active'}`} />
+                    {nigaYo9 && (
+                        <div className='an2'>Каблинг. Страховка деревьев с низкой прочностью ствола.
+                            Установка растяжек в кроне. Спил высоких деревьев используя технику лазания по деревьям.
+                            <GiTreeGrowth onClick={() => setNigaYo10(nigaYo10 = !nigaYo10)} className={`tel6 ${nigaYo10 && 'active'}`} />
+                            {nigaYo10 && (
+                                <div className='tel7'>__8 952 214 47 50__
+                                    __Андрей Юрич__
+                                    Санкт-Петербург
+                                </div>
+                            )}
+                        </div>
+                    )}
                 </div>
             )}
             <DiProlog onClick={() => setNigaYo1(nigaYo1 = !nigaYo1)} className={`menu ${nigaYo1 && 'active'}`} />
