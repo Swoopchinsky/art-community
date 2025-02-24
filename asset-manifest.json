@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/art-community/static/css/main.b0f6d97e.css",
-    "main.js": "/art-community/static/js/main.8f5dc266.js",
+    "main.css": "/art-community/static/css/main.c7648568.css",
+    "main.js": "/art-community/static/js/main.004da9a0.js",
     "static/media/fon.jpg": "/art-community/static/media/fon.9741e37087f28c4dd23a.jpg",
     "static/media/fon5.jpg": "/art-community/static/media/fon5.86fe70bf2f6eba7ab548.jpg",
     "static/media/fon4.jpg": "/art-community/static/media/fon4.2b596a18c21b0b677191.jpg",
@@ -9,11 +9,11 @@
     "static/media/fon3.jpg": "/art-community/static/media/fon3.58459aee911421f54a65.jpg",
     "static/media/fon2.jpg": "/art-community/static/media/fon2.b602cf2855cb01d8d2ea.jpg",
     "index.html": "/art-community/index.html",
-    "main.b0f6d97e.css.map": "/art-community/static/css/main.b0f6d97e.css.map",
-    "main.8f5dc266.js.map": "/art-community/static/js/main.8f5dc266.js.map"
+    "main.c7648568.css.map": "/art-community/static/css/main.c7648568.css.map",
+    "main.004da9a0.js.map": "/art-community/static/js/main.004da9a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0f6d97e.css",
-    "static/js/main.8f5dc266.js"
+    "static/css/main.c7648568.css",
+    "static/js/main.004da9a0.js"
   ]
 }
