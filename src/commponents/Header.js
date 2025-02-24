@@ -35,7 +35,9 @@ export default function Header() {
                             <BsTelephone onClick={() => setNigaYo4(nigaYo4 = !nigaYo4)} className={`tel ${nigaYo4 && 'active'}`} />
                             {nigaYo4 && (
                                 <div className='tel1'>
-                                    8 921 593 63 24 Sankt-Petersburg:
+                                    8 921 593 63 24
+                                    Игарян
+                                    Sankt-Petersburg
                                 </div>
                             )}
                         </div>
@@ -51,7 +53,9 @@ export default function Header() {
                             <GiRotaryPhone onClick={() => setNigaYo6(nigaYo6 = !nigaYo6)} className={`tel2 ${nigaYo6 && 'active'}`} />
                             {nigaYo6 && (
                                 <div className='tel3'>
-                                    8 921 593 63 24 Sankt-Petersburg:
+                                    8 921 593 63 24
+                                    спросить Дмитрия Юрича _________
+                                    Sankt-Petersburg
                                 </div>
                             )}
                         </div>
