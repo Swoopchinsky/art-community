@@ -10,6 +10,8 @@ import { GiZigzagTune } from "react-icons/gi";
 import { GiMadScientist } from "react-icons/gi";
 import { GiPalmTree } from "react-icons/gi";
 import { GiTreeGrowth } from "react-icons/gi";
+import { GiWaveSurfer } from "react-icons/gi";
+import { GiFamilyHouse } from "react-icons/gi";
 
 export default function Header() {
     let [nigaYo, setNigaYo] = useState(false)
@@ -27,6 +29,9 @@ export default function Header() {
 
     let [nigaYo9, setNigaYo9] = useState(false)
     let [nigaYo10, setNigaYo10] = useState(false)
+
+    let [nigaYo11, setNigaYo11] = useState(false)
+    let [nigaYo12, setNigaYo12] = useState(false)
 
     return (
         <header>
@@ -100,13 +105,30 @@ export default function Header() {
                             Установка растяжек в кроне. Спил высоких деревьев используя технику лазания по деревьям.
                             <GiTreeGrowth onClick={() => setNigaYo10(nigaYo10 = !nigaYo10)} className={`tel6 ${nigaYo10 && 'active'}`} />
                             {nigaYo10 && (
-                                <div className='tel7'>__8 952 214 47 50__
-                                    __Андрей Юрич__
+                                <div className='tel7'>_ 8 952 214 47 50 __
+                                    _ Андрей Юрич _
                                     Санкт-Петербург
                                 </div>
                             )}
                         </div>
                     )}
+                    <div className='ju'>Andrey Julvern</div>
+                    <GiWaveSurfer onClick={() => setNigaYo11(nigaYo11 = !nigaYo11)} className={`ju1 ${nigaYo11 && 'active'}`} />
+                    {nigaYo11 && (
+                        <div className='ju2'>Аренда помещений на Васильевском острове, 3-я линия.
+                            Клиентоорентированность и широкий спектр предоставляемых площадей.
+                            Приемлимые цены.
+                            <GiFamilyHouse onClick={() => setNigaYo12(nigaYo12 = !nigaYo12)} className={`tel8 ${nigaYo12 && 'active'}`} />
+                            {nigaYo12 && (
+                                <div className='tel9'>
+                                    _ Андрей Вячеславович
+                                    _ 8 921 307 29 11
+                                    Санкт-Петербург
+                                </div>
+                            )}
+                        </div>
+                    )}
+
                 </div>
             )}
             <DiProlog onClick={() => setNigaYo1(nigaYo1 = !nigaYo1)} className={`menu ${nigaYo1 && 'active'}`} />
