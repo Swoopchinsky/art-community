@@ -366,7 +366,7 @@ header .an1 {
     font-size: 60px;
     cursor: pointer;
     position: absolute;
-    top: 390px;
+    top: 400px;
     left: 560px;
     color: #0d0a02;
     background-color: #c7e6b0;
@@ -443,7 +443,7 @@ header .ju1 {
     font-size: 60px;
     cursor: pointer;
     position: absolute;
-    top: 484px;
+    top: 500px;
     left: 560px;
     color: #0d0a02;
     background-color: #dcfda9;
@@ -486,6 +486,13 @@ header .tel8 {
     margin-top: 10px;
 }
 
+header .tel8:hover,
+header .tel8.active {
+    color: #dcfda9;
+    background-color: #317034;
+    transform: scale(1.4);
+}
+
 header .tel9 {
     background-color: #dcfda9;
     padding: 10px;
@@ -497,11 +504,80 @@ header .tel9 {
     box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
 }
 
-header .tel8:hover,
-header .tel8.active {
-    color: #dcfda9;
-    background-color: #317034;
+header .iv {
+    font-size: 48px;
+    position: absolute;
+    top: 580px;
+    left: 30px;
+    margin: 10px;
+    padding: 6px;
+    border-radius: 30px;
+    background-color: #bbe779;
+}
+
+header .iv1 {
+    font-size: 60px;
+    cursor: pointer;
+    position: absolute;
+    top: 600px;
+    left: 560px;
+    color: #0d0a02;
+    background-color: #bbe779;
+    padding: 6px;
+    border-radius: 30px;
+    transition: color, transform 500ms ease;
+}
+
+header .iv1:hover,
+header .iv1.active {
+    color: #73804b;
+    background-color: #bbe779;
     transform: scale(1.4);
+}
+
+header .iv2 {
+    font-size: 60px;
+    position: absolute;
+    left: 640px;
+    width: 700px;
+    height: 766px;
+    padding-left: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    background-color: #bbe779;
+}
+
+header .tel10 {
+    font-size: 60px;
+    color: #192f12;
+    position: absolute;
+    background-color: #e2fcbd;
+    padding: 12px;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+header .tel10:hover,
+header .tel10.active {
+    color: #bbe779;
+    background-color: #577926;
+    transform: scale(1.4);
+}
+
+header .tel11 {
+    background-color: #bbe779;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
+    box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
 }
 
 header .goo {

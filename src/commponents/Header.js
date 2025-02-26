@@ -12,6 +12,8 @@ import { GiPalmTree } from "react-icons/gi";
 import { GiTreeGrowth } from "react-icons/gi";
 import { GiWaveSurfer } from "react-icons/gi";
 import { GiFamilyHouse } from "react-icons/gi";
+import { GiAstronautHelmet } from "react-icons/gi";
+import { GiDwarfFace } from "react-icons/gi";
 
 export default function Header() {
     let [nigaYo, setNigaYo] = useState(false)
@@ -32,6 +34,9 @@ export default function Header() {
 
     let [nigaYo11, setNigaYo11] = useState(false)
     let [nigaYo12, setNigaYo12] = useState(false)
+
+    let [nigaYo13, setNigaYo13] = useState(false)
+    let [nigaYo14, setNigaYo14] = useState(false)
 
     return (
         <header>
@@ -115,7 +120,7 @@ export default function Header() {
                     <div className='ju'>Andrey Julvern</div>
                     <GiWaveSurfer onClick={() => setNigaYo11(nigaYo11 = !nigaYo11)} className={`ju1 ${nigaYo11 && 'active'}`} />
                     {nigaYo11 && (
-                        <div className='ju2'>Аренда помещений на Васильевском острове, 3-я линия.
+                        <div className='ju2'>Аренда помещений на Васильевском острове, центр,  3-я линия.
                             Клиентоорентированность и широкий спектр предоставляемых площадей.
                             Приемлимые цены.
                             <GiFamilyHouse onClick={() => setNigaYo12(nigaYo12 = !nigaYo12)} className={`tel8 ${nigaYo12 && 'active'}`} />
@@ -125,6 +130,21 @@ export default function Header() {
                                     _ 8 921 307 29 11
                                     Санкт-Петербург
                                 </div>
+                            )}
+                        </div>
+                    )}
+                    <div className='iv'>Ivan Smirnov</div>
+                    <GiAstronautHelmet onClick={() => setNigaYo13(nigaYo13 = !nigaYo13)} className={`iv1 ${nigaYo13 && 'active'}`} />
+                    {nigaYo13 && (
+                        <div className='iv2'>Специалист инженерных систем. Работы любой сложности.
+                            Быстро и Качественно. В любом положении, на сто процентов.
+                            Реализацияя самых сложных проектов.
+                            Соблюдение сроков.
+                            <GiDwarfFace onClick={() => setNigaYo14(nigaYo14 = !nigaYo14)} className={`tel10 ${nigaYo14 && 'active'}`} />
+                            {nigaYo14 && (
+                                <div className='tel11'>8 931 999 23 06
+                                    Иванч
+                                    Санкт-Петербург </div>
                             )}
                         </div>
                     )}
