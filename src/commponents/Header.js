@@ -52,13 +52,13 @@ export default function Header() {
                     {nigaYo3 && (
                         <div className='iga2'>
                             Разработка Web сайтов при помощи JavaScript технологии ReactJS. Размещение на Хостинге GitHub Pages.
-                            Также составление графиков на Python, библиотека matplotlib.
+                            Также составление графиков на Python, библиотека matplotlib. Pyplot. Jupyter notebook.
                             <BsTelephone onClick={() => setNigaYo4(nigaYo4 = !nigaYo4)} className={`tel ${nigaYo4 && 'active'}`} />
                             {nigaYo4 && (
                                 <div className='tel1'>
-                                    8 921 593 63 24
-                                    Игарян
-                                    Санкт-Петерберг
+                                    <div>8 921 593 63 24</div>
+                                    <div>Игарян Борисыч</div>
+                                    <div>Санкт-Петерберг</div>
                                 </div>
                             )}
                         </div>
@@ -70,13 +70,13 @@ export default function Header() {
                     {nigaYo5 && (
                         <div className='dim2'>
                             Дизайн Интерьеров. Техническая Документация и сопровождение проекта.
-                            Репетиторство: подготовка к поступлению в Художественные ВУЗы.
+                            Репетиторство: подготовка к поступлению в Художественные ВУЗы. Реальная практика день за днем.
                             <GiRotaryPhone onClick={() => setNigaYo6(nigaYo6 = !nigaYo6)} className={`tel2 ${nigaYo6 && 'active'}`} />
                             {nigaYo6 && (
                                 <div className='tel3'>
-                                    __8 921 593 63 24__
-                                    __Дмитрий Юрич __
-                                    __Санкт-Петербург__
+                                    <div>8 921 593 63 24</div>
+                                    <div>Дмитрий Юрич</div>
+                                    <div>Санкт-Петербург</div>
                                 </div>
                             )}
                         </div>
@@ -90,15 +90,16 @@ export default function Header() {
                                 Современный подход к Классическому Стилю.
                                 Использование Новейших Программ.
                                 Запись Музыки на Заказ.
-                                Пишет Музыку с 8 лет.
+                                Пишет Музыку C 8 лет!
                                 Совместная работа.
+                                Человек Звук.
                             </ul>
                             <GiMadScientist onClick={() => setNigaYo8(nigaYo8 = !nigaYo8)} className={`tel4 ${nigaYo8 && 'active'}`} />
                             {nigaYo8 && (
                                 <div className='tel5'>
-                                    __8 968 188 60 13__
-                                    __Илья Дмитрич __
-                                    Санкт-Петербург
+                                    <div>8 968 188 60 13</div>
+                                    <div>Илья Дмитрич</div>
+                                    <div>Санкт-Петербург</div>
                                 </div>
                             )}
                         </div>
@@ -108,11 +109,13 @@ export default function Header() {
                     {nigaYo9 && (
                         <div className='an2'>Каблинг. Страховка деревьев с низкой прочностью ствола.
                             Установка растяжек в кроне. Спил высоких деревьев используя технику лазания по деревьям.
+                            Зеленогорское направление.
                             <GiTreeGrowth onClick={() => setNigaYo10(nigaYo10 = !nigaYo10)} className={`tel6 ${nigaYo10 && 'active'}`} />
                             {nigaYo10 && (
-                                <div className='tel7'>_ 8 952 214 47 50 __
-                                    _ Андрей Юрич _
-                                    Санкт-Петербург
+                                <div className='tel7'>
+                                    <div>8 952 214 47 50</div>
+                                    <div>Андрей Юрич </div>
+                                    <div>Санкт-Петербург</div>
                                 </div>
                             )}
                         </div>
@@ -122,7 +125,7 @@ export default function Header() {
                     {nigaYo11 && (
                         <div className='ju2'>Аренда помещений на Васильевском острове, центр,  3-я линия.
                             Клиентоорентированность и широкий спектр предоставляемых площадей.
-                            Приемлимые цены.
+                            Приемлимые цены. Вежливость и Надежность Сотрудничества.
                             <GiFamilyHouse onClick={() => setNigaYo12(nigaYo12 = !nigaYo12)} className={`tel8 ${nigaYo12 && 'active'}`} />
                             {nigaYo12 && (
                                 <div className='tel9'>
@@ -137,9 +140,9 @@ export default function Header() {
                     <GiAstronautHelmet onClick={() => setNigaYo13(nigaYo13 = !nigaYo13)} className={`iv1 ${nigaYo13 && 'active'}`} />
                     {nigaYo13 && (
                         <div className='iv2'>Специалист инженерных систем. Работы любой сложности.
-                            Быстро и Качественно. В любом положении, на сто процентов.
+                            Быстро и Качественно. Сварка в любом положении, на сто процентов.
                             Реализацияя самых сложных проектов.
-                            Соблюдение сроков.
+                            Соблюдение сроков. Чистота и Порядок.
                             <GiDwarfFace onClick={() => setNigaYo14(nigaYo14 = !nigaYo14)} className={`tel10 ${nigaYo14 && 'active'}`} />
                             {nigaYo14 && (
                                 <div className='tel11'>8 931 999 23 06
