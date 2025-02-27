@@ -129,9 +129,9 @@ export default function Header() {
                             <GiFamilyHouse onClick={() => setNigaYo12(nigaYo12 = !nigaYo12)} className={`tel8 ${nigaYo12 && 'active'}`} />
                             {nigaYo12 && (
                                 <div className='tel9'>
-                                    _ Андрей Вячеславович
-                                    _ 8 921 307 29 11
-                                    Санкт-Петербург
+                                    <div>Андрей Вячеславович</div>
+                                    <div>8 921 307 29 11</div>
+                                    <div>Санкт-Петербург</div>
                                 </div>
                             )}
                         </div>
@@ -145,9 +145,11 @@ export default function Header() {
                             Соблюдение сроков. Чистота и Порядок.
                             <GiDwarfFace onClick={() => setNigaYo14(nigaYo14 = !nigaYo14)} className={`tel10 ${nigaYo14 && 'active'}`} />
                             {nigaYo14 && (
-                                <div className='tel11'>8 931 999 23 06
-                                    Иванч
-                                    Санкт-Петербург </div>
+                                <div className='tel11'>
+                                    <div>8 931 999 23 06</div>
+                                    <div>Иванч</div>
+                                    <div> Санкт-Петербург </div>
+                                </div>
                             )}
                         </div>
                     )}
@@ -157,7 +159,11 @@ export default function Header() {
             <DiProlog onClick={() => setNigaYo1(nigaYo1 = !nigaYo1)} className={`menu ${nigaYo1 && 'active'}`} />
             {nigaYo1 && (
                 <div className='menu1'>
-                    shalom
+                    <div>Сова - символ Мудрости. Таинственная птица. Помошник в понимании трудных задач.</div>
+                    <div>Подсказывает верное направление и содействует в научных открытиях.</div>
+                    <div>Как оберег, Сова известна во многих культурах.</div>
+                    <div>Сова защищает от порчи и сглаза, отталкивая всю отрицательную энергетику.</div>
+
                 </div>
             )}
             <GiGoose onClick={() => setNigaYo2(nigaYo2 = !nigaYo2)} className={`goo ${nigaYo2 && 'active'}`} />

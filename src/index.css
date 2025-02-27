@@ -74,7 +74,7 @@ header .menu {
 
 header .menu:hover,
 header .menu.active {
-    color: #a5a6fd;
+    color: #787ac9;
     transform: scale(1.5);
 }
 
@@ -85,8 +85,8 @@ header .menu1 {
     width: 700px;
     height: 766px;
     padding: 16px;
-    font-size: 44px;
-    background-color: #ddd4f7;
+    font-size: 48px;
+    background-color: #e4e8ff;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
@@ -578,7 +578,7 @@ header .tel11 {
     background-color: #bbe779;
     padding: 10px;
     padding-left: 20px;
-    margin-top: 20px;
+    margin-top: 34px;
     border-radius: 30px;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
