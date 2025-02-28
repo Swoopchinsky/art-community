@@ -155,7 +155,7 @@ export default function Header() {
                             {nigaYo14 && (
                                 <div className='tel11'>
                                     <div>Иванч</div>
-                                    <div>8 931 999 23 06</div>
+                                    <tel>8 931 999 23 06</tel>
                                     <div> Санкт-Петербург </div>
                                 </div>
                             )}
