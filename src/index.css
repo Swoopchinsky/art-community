@@ -70,12 +70,17 @@ header .menu {
     cursor: pointer;
     transition: color, transform 500ms ease;
     margin-left: 50px;
+    border-radius: 22px;
 }
 
 header .menu:hover,
 header .menu.active {
     color: #787ac9;
+    background-color: #13180c;
     transform: scale(1.5);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .menu1 {
@@ -86,7 +91,7 @@ header .menu1 {
     height: 766px;
     padding: 16px;
     font-size: 48px;
-    background-color: #e4e8ff;
+    background-color: #e4e8fb;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
@@ -100,13 +105,20 @@ header .pers {
     cursor: pointer;
     transition: color, transform 500ms ease;
     margin-left: 90px;
+    border-radius: 22px;
+
 
 }
 
 header .pers:hover,
 header .pers.active {
-    color: #9fcf9b;
+    color: #cdfac9;
+    background-color: #230f0b;
     transform: scale(1.5);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+
 }
 
 header .pers1 {
@@ -404,15 +416,18 @@ header .an2 {
 
 header .tel6 {
     font-size: 60px;
-    color: #1f6a13;
+    color: #081e05;
     position: absolute;
-    background-color: #cdffcc;
-    padding: 12px;
-    border-radius: 28px;
+
+    background-color: #ccf9ba;
+    border-radius: 50px;
     cursor: pointer;
     transition: color, transform 500ms ease;
-    margin-left: 200px;
+    margin-left: 430px;
     margin-top: 10px;
+    -webkit-box-shadow: 0px -1px 8px 14px rgba(191, 255, 24, 0.26);
+    -moz-box-shadow: 0px -1px 8px 14px rgba(191, 255, 24, 0.26);
+    box-shadow: 0px -1px 8px 14px rgba(191, 255, 24, 0.26);
 
 }
 
@@ -427,7 +442,7 @@ header .tel7 {
     background-color: #c7e6b0;
     padding: 10px;
     padding-left: 20px;
-    margin-top: 20px;
+    margin-top: 78px;
     border-radius: 30px;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
@@ -587,7 +602,7 @@ header .tel11 {
 
 header .goo {
     font-size: 60px;
-    color: #3f7106;
+    color: #0b1301;
     cursor: pointer;
     transition: color, transform 500ms ease;
     margin-left: 50px;
@@ -596,8 +611,13 @@ header .goo {
 
 header .goo:hover,
 header .goo.active {
-    color: #77d865;
+    color: #eff89f;
+    background-color: #172704;
+    border-radius: 22px;
     transform: scale(1.5);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .goo1 {
@@ -606,7 +626,10 @@ header .goo1 {
     left: 230px;
     width: 740px;
     height: 766px;
-    background-color: #c5efae;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 50px;
+    background-color: #eff89f;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);

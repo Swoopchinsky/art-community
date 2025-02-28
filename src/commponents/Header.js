@@ -2,14 +2,19 @@ import React, { useState } from 'react'
 import { DiProlog } from "react-icons/di";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { GiGoose } from "react-icons/gi";
+
 import { GiMuscleUp } from "react-icons/gi";
 import { BsTelephone } from "react-icons/bs";
+
 import { GiScrollUnfurled } from "react-icons/gi";
 import { GiRotaryPhone } from "react-icons/gi";
-import { GiZigzagTune } from "react-icons/gi";
+
+import { GiGClef } from "react-icons/gi";
 import { GiMadScientist } from "react-icons/gi";
-import { GiPalmTree } from "react-icons/gi";
-import { GiTreeGrowth } from "react-icons/gi";
+
+import { GiFireDash } from "react-icons/gi";
+import { GiJupiter } from "react-icons/gi";
+
 import { GiWaveSurfer } from "react-icons/gi";
 import { GiFamilyHouse } from "react-icons/gi";
 import { GiAstronautHelmet } from "react-icons/gi";
@@ -56,8 +61,8 @@ export default function Header() {
                             <BsTelephone onClick={() => setNigaYo4(nigaYo4 = !nigaYo4)} className={`tel ${nigaYo4 && 'active'}`} />
                             {nigaYo4 && (
                                 <div className='tel1'>
+                                    <div>Игарян Борисч</div>
                                     <div>8 921 593 63 24</div>
-                                    <div>Игарян Борисыч</div>
                                     <div>Санкт-Петерберг</div>
                                 </div>
                             )}
@@ -74,15 +79,15 @@ export default function Header() {
                             <GiRotaryPhone onClick={() => setNigaYo6(nigaYo6 = !nigaYo6)} className={`tel2 ${nigaYo6 && 'active'}`} />
                             {nigaYo6 && (
                                 <div className='tel3'>
-                                    <div>8 921 593 63 24</div>
                                     <div>Дмитрий Юрич</div>
+                                    <div>8 921 593 63 24</div>
                                     <div>Санкт-Петербург</div>
                                 </div>
                             )}
                         </div>
                     )}
                     <div className='il'>Ilioos Yohan</div>
-                    <GiZigzagTune onClick={() => setNigaYo7(nigaYo7 = !nigaYo7)} className={`il1 ${nigaYo7 && 'active'}`} />
+                    <GiGClef onClick={() => setNigaYo7(nigaYo7 = !nigaYo7)} className={`il1 ${nigaYo7 && 'active'}`} />
                     {nigaYo7 && (
                         <div className='il2'>
                             <ul>
@@ -97,24 +102,25 @@ export default function Header() {
                             <GiMadScientist onClick={() => setNigaYo8(nigaYo8 = !nigaYo8)} className={`tel4 ${nigaYo8 && 'active'}`} />
                             {nigaYo8 && (
                                 <div className='tel5'>
-                                    <div>8 968 188 60 13</div>
                                     <div>Илья Дмитрич</div>
+                                    <div>8 968 188 60 13</div>
                                     <div>Санкт-Петербург</div>
                                 </div>
                             )}
                         </div>
                     )}
-                    <div className='an'>Andrey Skok</div>
-                    <GiPalmTree onClick={() => setNigaYo9(nigaYo9 = !nigaYo9)} className={`an1 ${nigaYo9 && 'active'}`} />
+                    <div className='an'>Dron Megavolt</div>
+                    <GiFireDash onClick={() => setNigaYo9(nigaYo9 = !nigaYo9)} className={`an1 ${nigaYo9 && 'active'}`} />
                     {nigaYo9 && (
-                        <div className='an2'>Каблинг. Страховка деревьев с низкой прочностью ствола.
-                            Установка растяжек в кроне. Спил высоких деревьев используя технику лазания по деревьям.
-                            Зеленогорское направление.
-                            <GiTreeGrowth onClick={() => setNigaYo10(nigaYo10 = !nigaYo10)} className={`tel6 ${nigaYo10 && 'active'}`} />
+                        <div className='an2'>
+                            <div>Електрик. Экспертное мнение. Технологичный подход к сборке шитков и разпределительных коробок.
+                                Штробление с применением системы циклонного фильтра, что минимизирует запыленность помещения.
+                            </div>
+                            <GiJupiter onClick={() => setNigaYo10(nigaYo10 = !nigaYo10)} className={`tel6 ${nigaYo10 && 'active'}`} />
                             {nigaYo10 && (
                                 <div className='tel7'>
-                                    <div>8 952 214 47 50</div>
                                     <div>Андрей Юрич </div>
+                                    <div>8 952 214 47 50</div>
                                     <div>Санкт-Петербург</div>
                                 </div>
                             )}
@@ -130,13 +136,13 @@ export default function Header() {
                             {nigaYo12 && (
                                 <div className='tel9'>
                                     <div>Андрей Вячеславович</div>
-                                    <div>8 921 307 29 11</div>
+                                    <div>8 921 900 37 60</div>
                                     <div>Санкт-Петербург</div>
                                 </div>
                             )}
                         </div>
                     )}
-                    <div className='iv'>Ivan Smirnov</div>
+                    <div className='iv'>Ivn Swed</div>
                     <GiAstronautHelmet onClick={() => setNigaYo13(nigaYo13 = !nigaYo13)} className={`iv1 ${nigaYo13 && 'active'}`} />
                     {nigaYo13 && (
                         <div className='iv2'>Специалист инженерных систем. Работы любой сложности.
@@ -146,8 +152,8 @@ export default function Header() {
                             <GiDwarfFace onClick={() => setNigaYo14(nigaYo14 = !nigaYo14)} className={`tel10 ${nigaYo14 && 'active'}`} />
                             {nigaYo14 && (
                                 <div className='tel11'>
-                                    <div>8 931 999 23 06</div>
                                     <div>Иванч</div>
+                                    <div>8 931 999 23 06</div>
                                     <div> Санкт-Петербург </div>
                                 </div>
                             )}
@@ -169,7 +175,10 @@ export default function Header() {
             <GiGoose onClick={() => setNigaYo2(nigaYo2 = !nigaYo2)} className={`goo ${nigaYo2 && 'active'}`} />
             {nigaYo2 && (
                 <div className='goo1'>
-                    Гусь это не просто птица!
+                    Дикиий Северный Гусь. Обитает на обширных территориях Северной Европпы.
+                    Серый Гусь (лат. Anser anser). Водоплавающая птица семейства утинных. Гнездица в Тундрах Евразиию. Дикие Гуси живут 80 лет.
+                    Птица длинной до 70-90 см и весом около 2-5 кг, размах крыльев 140-180 см.
+                    Символ Созидания и Возрождения.
                 </div>
             )}
 
