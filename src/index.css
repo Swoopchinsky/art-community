@@ -45,19 +45,20 @@ header .presentation {
 header .presentation::after {
     content: 'Искуство Создавать';
     position: absolute;
-    top: 80px;
+    top: 84px;
     left: 226px;
     width: 600px;
     font-size: 38px;
     font-weight: 600px;
-    color: #126009;
+    color: #385934;
 }
 
 header .but1 {
     font-size: 44px;
     border-radius: 22px;
-    color: #070f10;
-    background-color: transparent;
+    border-style: none;
+    color: #080e07;
+    background-color: #caebc6;
     padding: 5px;
     margin-left: 108px;
     margin-top: 70px;
