@@ -53,6 +53,41 @@ header .presentation::after {
     color: #126009;
 }
 
+header .but1 {
+    font-size: 44px;
+    border-radius: 22px;
+    color: #070f10;
+    background-color: transparent;
+    padding: 5px;
+    margin-left: 108px;
+    margin-top: 70px;
+    transition: color, transform 500ms ease;
+    cursor: pointer;
+}
+
+header .but1:hover,
+header .but1.active {
+    color: #dbfcd7;
+    background-color: #395636;
+    transform: scale(1.3);
+}
+
+header .pole1 {
+    position: absolute;
+    background-color: #dbfcd7;
+    width: 944px;
+    height: 920px;
+    font-size: 48px;
+    margin-left: 20px;
+    padding-left: 22px;
+    padding-top: 22px;
+    border-radius: 40px;
+    border-width: 20px;
+    border-style: double;
+    border-color: #395636;
+    z-index: 1001;
+}
+
 header .presentation::before {
     content: 'Absolute Control of Information';
     position: absolute;

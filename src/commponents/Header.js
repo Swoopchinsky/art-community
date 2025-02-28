@@ -43,6 +43,8 @@ export default function Header() {
     let [nigaYo13, setNigaYo13] = useState(false)
     let [nigaYo14, setNigaYo14] = useState(false)
 
+    let [nigaYo15, setNigaYo15] = useState(false)
+
     return (
         <header>
             <div>
@@ -52,7 +54,7 @@ export default function Header() {
             {nigaYo && (
                 <div className='pers1'>
                     <div className='pers2'>Команда</div>
-                    <div className='iga'>Garri Looking</div>
+                    <div className='iga'>Garri Swoopch</div>
                     <GiMuscleUp onClick={() => setNigaYo3(nigaYo3 = !nigaYo3)} className={`iga1 ${nigaYo3 && 'active'}`} />
                     {nigaYo3 && (
                         <div className='iga2'>
@@ -182,7 +184,25 @@ export default function Header() {
                 </div>
             )}
 
-            <div className='presentation'></div>
+            <div className='presentation'>
+                <button onClick={() => setNigaYo15(nigaYo15 = !nigaYo15)} className={`but1 ${nigaYo15 && 'active'}`} >Web</button>
+                {nigaYo15 && (
+                    <div className='pole1'>
+                        <div>Преимущества одностраничных сайтов:</div>
+                        <div>Низкая стоимость.</div>
+                        <div>Высокая скорость разработки.</div>
+                        <div>Заточенность под мобильное использование.</div>
+                        <div>Уникальность дизайна.</div>
+                        <div>Одностраничный сайт - идеальный инструмент для малого и среднего бизнеса.</div>
+                        <div>Комании могут предоставить свои услуги, контактыб портфолио и отзывы клиентов на одной странице.</div>
+                        <div>Ссылку на сайт можно указать в визиткахб в разговореб в рекламных материалах.</div>
+                        <div>На сайте легко публиковать информацию. Помогает Вам обеспечить свое прсутствие в Интернете.</div>
+
+
+
+                    </div>
+                )}
+            </div>
 
         </header>
     )
