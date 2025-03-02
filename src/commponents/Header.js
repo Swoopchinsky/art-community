@@ -20,6 +20,9 @@ import { GiFamilyHouse } from "react-icons/gi";
 import { GiAstronautHelmet } from "react-icons/gi";
 import { GiDwarfFace } from "react-icons/gi";
 
+import { GiOwl } from "react-icons/gi";
+
+
 export default function Header() {
     let [nigaYo, setNigaYo] = useState(false)
     let [nigaYo1, setNigaYo1] = useState(false)
@@ -45,6 +48,8 @@ export default function Header() {
 
     let [nigaYo15, setNigaYo15] = useState(false)
     let [nigaYo16, setNigaYo16] = useState(false)
+
+    let [nigaYo17, setNigaYo17] = useState(false)
 
     return (
         <header>
@@ -172,6 +177,13 @@ export default function Header() {
                     <div>Подсказывает верное направление и содействует в научных открытиях.</div>
                     <div>Как оберег, Сова известна во многих культурах.</div>
                     <div>Сова защищает от порчи и сглаза, отталкивая всю отрицательную энергетику.</div>
+                    <div>night owl</div>
+                    <GiOwl onClick={() => setNigaYo17(nigaYo17 = !nigaYo17)} className={`menu2 ${nigaYo17 && 'active'}`} />
+                    {nigaYo17 && (
+                        <div className='menu3'>
+                            full night owl
+                        </div>
+                    )}
 
                 </div>
             )}
@@ -218,8 +230,6 @@ export default function Header() {
                         <div>Массивы - arrays</div>
                         <div>function - object</div>
                         <div>object</div>
-
-
                     </div>
                 )}
             </div>
