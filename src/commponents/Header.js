@@ -44,6 +44,7 @@ export default function Header() {
     let [nigaYo14, setNigaYo14] = useState(false)
 
     let [nigaYo15, setNigaYo15] = useState(false)
+    let [nigaYo16, setNigaYo16] = useState(false)
 
     return (
         <header>
@@ -188,8 +189,8 @@ export default function Header() {
                 <button onClick={() => setNigaYo15(nigaYo15 = !nigaYo15)} className={`but1 ${nigaYo15 && 'active'}`} >Web</button>
                 {nigaYo15 && (
                     <div className='pole1'>
-                        <div>Преимущества одностраничных сайтов:</div>
-                        <div>Низкая стоимость.</div>
+                        <div>welcom to the long path in the dark forest of knowledge:</div>
+                        <div>JavaScript Provides Features.</div>
                         <div>Высокая скорость разработки.</div>
                         <div>Заточенность под мобильное использование.</div>
                         <div>Уникальность дизайна.</div>
@@ -197,6 +198,28 @@ export default function Header() {
                         <div>Компании могут предоставить свои услуги, контакты, портфолио и отзывы клиентов на одной странице.</div>
                         <div>Ссылку на сайт можно указать в визитках, в разговоре, в рекламных материалах.</div>
                         <div>На сайте легко публиковать информацию. Помогает Вам обеспечить свое  постоянное присутствие в Интернете.</div>
+                    </div>
+                )}
+                <button onClick={() => setNigaYo16(nigaYo16 = !nigaYo16)} className={`but2 ${nigaYo16 && 'active'}`} >Information</button>
+                {nigaYo16 && (
+                    <div className='pole2'>
+                        <div>the most valuable resource of our time</div>
+                        <div>data types</div>
+                        <div>Простые типы:</div>
+                        <div>number</div>
+                        <div>string</div>
+                        <div>Boolean</div>
+                        <div>Undefined</div>
+                        <div></div>
+                        <div>Null</div>
+                        <div>Symbol</div>
+                        <div>bigInt</div>
+                        <div>Специальные типы:</div>
+                        <div>Массивы - arrays</div>
+                        <div>function - object</div>
+                        <div>object</div>
+
+
                     </div>
                 )}
             </div>

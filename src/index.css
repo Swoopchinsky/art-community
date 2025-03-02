@@ -43,10 +43,10 @@ header .presentation {
 }
 
 header .presentation::after {
-    content: 'Искуство Создавать';
+    content: 'development';
     position: absolute;
     top: 84px;
-    left: 226px;
+    left: 326px;
     width: 600px;
     font-size: 38px;
     font-weight: 600px;
@@ -54,28 +54,31 @@ header .presentation::after {
 }
 
 header .but1 {
-    font-size: 44px;
+    font-size: 42px;
     border-radius: 22px;
     border-style: none;
-    color: #080e07;
-    background-color: #caebc6;
+    color: #183e11;
+    background-color: transparent;
     padding: 5px;
-    margin-left: 108px;
-    margin-top: 70px;
+    margin-left: 223px;
+    margin-top: 77px;
     transition: color, transform 500ms ease;
     cursor: pointer;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(40, 144, 22, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(40, 144, 22, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(40, 144, 22, 0.2);
 }
 
 header .but1:hover,
 header .but1.active {
-    color: #dbfcd7;
-    background-color: #395636;
+    color: #e3fde0;
+    background-color: #101c0f;
     transform: scale(1.3);
 }
 
 header .pole1 {
     position: absolute;
-    background-color: #dbfcd7;
+    background-color: #ffffff;
     width: 944px;
     height: 920px;
     font-size: 48px;
@@ -83,14 +86,14 @@ header .pole1 {
     padding-left: 22px;
     padding-top: 22px;
     border-radius: 40px;
-    border-width: 20px;
-    border-style: double;
+    border-width: 3px;
+    border-style: solid;
     border-color: #395636;
     z-index: 1001;
 }
 
 header .presentation::before {
-    content: 'Absolute Control of Information';
+    content: 'Absolute Control of ';
     position: absolute;
     top: 540px;
     left: 222px;
@@ -98,6 +101,47 @@ header .presentation::before {
     font-size: 48px;
     font-weight: 600px;
     color: #f1f2e5;
+}
+
+header .but2 {
+    font-size: 50px;
+    position: absolute;
+    left: 684px;
+    top: 537px;
+    color: #f1f2e5;
+    background-color: transparent;
+    border-style: none;
+    transition: color, transform 500ms ease;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(40, 144, 22, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(40, 144, 22, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(40, 144, 22, 0.2);
+
+}
+
+header .but2:hover,
+header .but2.active {
+    color: #080b00;
+    transform: scale(1.12);
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+header .pole2 {
+    position: absolute;
+    background-color: #ffffff;
+    width: 944px;
+    height: auto;
+    font-size: 48px;
+    margin-left: 250px;
+    margin-top: 480px;
+    padding-left: 22px;
+    padding-top: 22px;
+    border-radius: 40px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #395636;
+    z-index: 1001;
 }
 
 header .menu {
