@@ -21,6 +21,7 @@ import { GiAstronautHelmet } from "react-icons/gi";
 import { GiDwarfFace } from "react-icons/gi";
 
 import { GiOwl } from "react-icons/gi";
+import { GiBeastEye } from "react-icons/gi";
 
 
 export default function Header() {
@@ -50,6 +51,9 @@ export default function Header() {
     let [nigaYo16, setNigaYo16] = useState(false)
 
     let [nigaYo17, setNigaYo17] = useState(false)
+    let [nigaYo18, setNigaYo18] = useState(false)
+
+    let [nigaYo19, setNigaYo19] = useState(false)
 
     return (
         <header>
@@ -60,7 +64,7 @@ export default function Header() {
             {nigaYo && (
                 <div className='pers1'>
                     <div className='pers2'>Команда</div>
-                    <div className='iga'>Garri Swoopch</div>
+                    <div className='iga'>Garri Looking</div>
                     <GiMuscleUp onClick={() => setNigaYo3(nigaYo3 = !nigaYo3)} className={`iga1 ${nigaYo3 && 'active'}`} />
                     {nigaYo3 && (
                         <div className='iga2'>
@@ -182,7 +186,31 @@ export default function Header() {
                     {nigaYo17 && (
                         <div className='menu3'>
                             full night owl
+                            <div>
+                                <button onClick={() => setNigaYo18(nigaYo18 = !nigaYo18)} className={`menu4 ${nigaYo18 && 'active'}`}>Infa</button>
+                                {nigaYo18 && (
+                                    <div className='memu5'>
+                                        <div className='menu6'>
+                                            think:
+                                            <GiBeastEye onClick={() => setNigaYo19(nigaYo19 = !nigaYo19)} className={`menu7 ${nigaYo19 && 'active'}`} />
+                                            {nigaYo19 && (
+                                                <div className='menu8'>
+                                                    10000 $
+                                                </div>
+                                            )}
+                                        </div>
+                                        <div>Размер: 240 X 300</div>
+                                        <div>Масло Холст</div>
+                                        <div>Автор Garri Looking</div>
+                                        <div>Год: 2018</div>
+                                        <div>Цена: 10000 $</div>
+                                    </div>
+                                )}
+                            </div>
+
                         </div>
+
+
                     )}
 
                 </div>
