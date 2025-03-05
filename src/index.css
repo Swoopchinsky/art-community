@@ -244,20 +244,20 @@ header .menu7 {
     transition: color, transform 500ms ease;
     -webkit-box-shadow: 0px 7px 7px 7px rgba(29, 70, 100, 0.662);
     -moz-box-shadow: 0px 7px 7px 7px rgba(34, 60, 80, 0.26);
-    box-shadow: 0px 7px 7px 7px rgba(187, 221, 248, 0.758);
+    box-shadow: 0px 7px 7px 7px rgba(132, 191, 240, 0.623);
     border-radius: 20px;
 
 }
 
 header .menu7:hover,
 header .menu7.active {
-    color: #11115b;
+    color: #bfbff3;
     background-color: transparent;
     transform: scale(1.2);
     border-radius: 22px;
     -webkit-box-shadow: 0px 7px 7px 7px rgba(80, 145, 195, 0.662);
     -moz-box-shadow: 0px 7px 7px 7px rgba(34, 60, 80, 0.26);
-    box-shadow: 0px 7px 7px 7px rgba(125, 185, 231, 0.758);
+    box-shadow: 0px 7px 7px 7px rgba(61, 162, 239, 0.648);
 }
 
 header .menu8 {
@@ -321,7 +321,7 @@ header .iga {
     margin: 10px;
     padding: 6px;
     border-radius: 30px;
-    background-color: #b8fda1;
+    background-color: #9bfa886c;
 }
 
 header .iga1 {
@@ -331,7 +331,7 @@ header .iga1 {
     top: 100px;
     left: 560px;
     color: #0d0a02;
-    background-color: #b8fda1;
+    background-color: #9bfa886c;
     padding: 6px;
     border-radius: 30px;
     transition: color, transform 500ms ease;
@@ -339,9 +339,9 @@ header .iga1 {
 
 header .iga1:hover,
 header .iga1.active {
-    color: #b8fda1;
+    color: #b8ffa9d8;
     transform: scale(1.5);
-    background-color: #26793b;
+    background-color: #0a2410;
 }
 
 header .iga2 {
@@ -355,7 +355,7 @@ header .iga2 {
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
-    background-color: #b8fda1;
+    background-color: #c7fcbd;
 }
 
 header .tel {
@@ -368,14 +368,12 @@ header .tel {
     transition: color, transform 500ms ease;
     margin-top: -24px;
     margin-left: 40px;
-
-
 }
 
 header .tel:hover,
 header .tel.active {
     color: #b8fda1;
-    background-color: #26793b;
+    background-color: #0b2512;
     transform: scale(1.3);
 }
 
@@ -454,7 +452,7 @@ header .tel2.active {
 }
 
 header .tel3 {
-    background-color: #d6fab4;
+    background-color: #d7fccd;
     padding: 10px;
     padding-left: 20px;
     border-radius: 30px;
@@ -589,7 +587,6 @@ header .tel6 {
     font-size: 60px;
     color: #081e05;
     position: absolute;
-
     background-color: #ccf9ba;
     border-radius: 50px;
     cursor: pointer;
@@ -604,7 +601,7 @@ header .tel6 {
 
 header .tel6:hover,
 header .tel6.active {
-    color: #c7e6b0;
+    color: rgb(198, 246, 77);
     background-color: #204122;
     transform: scale(1.3);
 }
@@ -887,8 +884,113 @@ zaliv .zalblock {
 
 .lego {
     font-size: 60px;
-    padding-left: 360px;
+    position: relative;
+    padding-left: 560px;
     margin-top: 40px;
+    background-color: #c8f4b2;
+    border-radius: 40px;
+}
+
+lego .le {
+    font-size: 50px;
+    position: relative;
+    margin-left: -810px;
+    border-radius: 30px;
+    padding: 8px;
+    background-color: #d5f216c9;
+    border-style: none;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+
+lego .le:hover,
+lego .le.active {
+    color: #aaf6a0f2;
+    position: absolute;
+    background-color: #050604;
+    border-radius: 22px;
+    transform: scale(1.3);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+}
+
+lego .episode {
+    background-color: #e6f96bf2;
+    border-radius: 32px;
+    margin-left: -580px;
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+}
+
+lego .ep1 {
+    background-color: transparent;
+    font-size: 48px;
+    margin-left: 22px;
+    border-radius: 30px;
+    padding: 6px;
+    border-style: none;
+    transition: color, transform 500ms ease;
+    cursor: pointer;
+}
+
+lego .ep1:hover,
+lego .ep1.active {
+    color: #e6f96bf2;
+    background-color: #0c1206;
+    transform: scale(1.2);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+}
+
+lego .cadr1 {
+    background: url('./Comics/ep1/cadr1.jpg');
+    width: 1200px;
+    height: 626px;
+    border-radius: 35px;
+}
+
+lego .text1 {
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 800px;
+    color: #f0fab0f2;
+
+}
+
+lego .but1ep1 {
+    background-color: #d1fcae89;
+    font-size: 40px;
+    padding: 4px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: none;
+    transition: color, transform 500ms ease;
+}
+
+lego .but1ep1:hover,
+lego .but1ep1.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+}
+
+lego .cadr2 {
+    background: url('./Comics/ep1/cadr2.jpg');
+    margin-left: 346px;
+    position: relative;
+    width: 1400px;
+    height: 826px;
+    z-index: 1005;
+    margin-left: 0px;
+    border-radius: 40px;
 }
 
 lego .legoblock {

@@ -74,7 +74,9 @@ export default function Header() {
                             {nigaYo4 && (
                                 <div className='tel1'>
                                     <div>Игарян Борисч</div>
-                                    <div>8 921 593 63 24</div>
+                                    <div>+7 921 593 63 24</div>
+                                    <div>WhatsApp</div>
+                                    <div>Telegram</div>
                                     <div>Санкт-Петерберг</div>
                                 </div>
                             )}
@@ -92,7 +94,9 @@ export default function Header() {
                             {nigaYo6 && (
                                 <div className='tel3'>
                                     <div>Дмитрий Юрич</div>
-                                    <div>8 921 593 63 24</div>
+                                    <div>+7 921 900 47 39</div>
+                                    <div>WhatsApp</div>
+                                    <div>Telegram</div>
                                     <div>Санкт-Петербург</div>
                                 </div>
                             )}
@@ -115,7 +119,9 @@ export default function Header() {
                             {nigaYo8 && (
                                 <div className='tel5'>
                                     <div>Илья Дмитрич</div>
-                                    <div>8 968 188 60 13</div>
+                                    <div>+7 968 188 60 13</div>
+                                    <div>WhatsApp</div>
+                                    <div>Telegram</div>
                                     <div>Санкт-Петербург</div>
                                 </div>
                             )}
@@ -132,7 +138,9 @@ export default function Header() {
                             {nigaYo10 && (
                                 <div className='tel7'>
                                     <div>Андрей Юрич </div>
-                                    <div>8 952 214 47 50</div>
+                                    <div>+7 952 214 47 50</div>
+                                    <div>WhatsApp</div>
+                                    <div>Telegram</div>
                                     <div>Санкт-Петербург</div>
                                 </div>
                             )}
@@ -148,7 +156,9 @@ export default function Header() {
                             {nigaYo12 && (
                                 <div className='tel9'>
                                     <div>Андрей Вячеславович</div>
-                                    <div>8 921 900 37 60</div>
+                                    <div>+7 921 900 37 60</div>
+                                    <div>WhatsApp</div>
+                                    <div>Telegram</div>
                                     <div>Санкт-Петербург</div>
                                 </div>
                             )}
@@ -165,7 +175,9 @@ export default function Header() {
                             {nigaYo14 && (
                                 <div className='tel11'>
                                     <div>Иванч</div>
-                                    <tel>8 931 999 23 06</tel>
+                                    <tel>+7 931 999 23 06</tel>
+                                    <div>WhatsApp</div>
+                                    <div>Telegram</div>
                                     <div> Санкт-Петербург </div>
                                 </div>
                             )}
@@ -181,7 +193,7 @@ export default function Header() {
                     <div>Подсказывает верное направление и содействует в научных открытиях.</div>
                     <div>Как оберег, Сова известна во многих культурах.</div>
                     <div>Сова защищает от порчи и сглаза, отталкивая всю отрицательную энергетику.</div>
-                    <div>night owl</div>
+                    <div>Ночной охотник</div>
                     <GiOwl onClick={() => setNigaYo17(nigaYo17 = !nigaYo17)} className={`menu2 ${nigaYo17 && 'active'}`} />
                     {nigaYo17 && (
                         <div className='menu3'>
