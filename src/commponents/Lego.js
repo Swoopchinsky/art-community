@@ -17,6 +17,9 @@ export default function Lego() {
     let [nigaLe13, setNigaLe13] = useState(false)
     let [nigaLe14, setNigaLe14] = useState(false)
     let [nigaLe15, setNigaLe15] = useState(false)
+    let [nigaLe16, setNigaLe16] = useState(false)
+    let [nigaLe17, setNigaLe17] = useState(false)
+    let [nigaLe18, setNigaLe18] = useState(false)
 
     return (
         <lego>
@@ -85,6 +88,24 @@ export default function Lego() {
                                                                                                                                             {nigaLe15 && (
                                                                                                                                                 <div className='cadr15'>
                                                                                                                                                     <div className='text15'>take it Marty</div>
+                                                                                                                                                    <button onClick={() => setNigaLe16(nigaLe16 = !nigaLe16)} className={`but15ep1 ${nigaLe16 && 'active'}`} >grab</button>
+                                                                                                                                                    {nigaLe16 && (
+                                                                                                                                                        <div className='cadr16'>
+                                                                                                                                                            <div className='text16'>give it to me</div>
+                                                                                                                                                            <button onClick={() => setNigaLe17(nigaLe17 = !nigaLe17)} className={`but16ep1 ${nigaLe17 && 'active'}`} >give</button>
+                                                                                                                                                            {nigaLe17 && (
+                                                                                                                                                                <div className='cadr17'>
+                                                                                                                                                                    <div className='text17'>just a minute</div>
+                                                                                                                                                                    <button onClick={() => setNigaLe18(nigaLe18 = !nigaLe18)} className={`but17ep1 ${nigaLe18 && 'active'}`} >let's do it</button>
+                                                                                                                                                                    {nigaLe18 && (
+                                                                                                                                                                        <div className='cadr18'>
+                                                                                                                                                                            <div className='text18'>catch</div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    )}
+                                                                                                                                                                </div>
+                                                                                                                                                            )}
+                                                                                                                                                        </div>
+                                                                                                                                                    )}
                                                                                                                                                 </div>
                                                                                                                                             )}
                                                                                                                                         </div>
