@@ -894,9 +894,9 @@ zaliv .zalblock {
 lego .le {
     font-size: 50px;
     position: relative;
-    margin-left: -810px;
-    border-radius: 30px;
-    padding: 8px;
+    margin-left: -760px;
+    border-radius: 40px;
+    padding: 4px;
     background-color: #d5f216c9;
     border-style: none;
     cursor: pointer;
@@ -908,7 +908,7 @@ lego .le.active {
     color: #aaf6a0f2;
     position: absolute;
     background-color: #050604;
-    border-radius: 22px;
+    border-radius: 30px;
     transform: scale(1.3);
     -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
     -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
@@ -918,7 +918,7 @@ lego .le.active {
 lego .episode {
     background-color: #e6f96bf2;
     border-radius: 32px;
-    margin-left: -580px;
+    margin-left: -560px;
     -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
     -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
     box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
@@ -927,7 +927,7 @@ lego .episode {
 lego .ep1 {
     background-color: transparent;
     font-size: 48px;
-    margin-left: 22px;
+    margin-left: 48px;
     border-radius: 30px;
     padding: 6px;
     border-style: none;
@@ -957,7 +957,6 @@ lego .text1 {
     margin-top: 170px;
     margin-left: 800px;
     color: #f0fab0f2;
-
 }
 
 lego .but1ep1 {
@@ -992,6 +991,128 @@ lego .cadr2 {
     margin-left: 0px;
     border-radius: 40px;
 }
+
+lego .text2 {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 940px;
+    color: #000000;
+    background-color: #75bd2d82;
+    border-radius: 30px;
+}
+
+lego .but2ep1 {
+    background-color: #aeda8a;
+    font-size: 40px;
+    padding: 4px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 120px;
+    cursor: pointer;
+    border-style: none;
+    transition: color, transform 500ms ease;
+}
+
+lego .but2ep1:hover,
+lego .but2ep1.active {
+    color: #ebf5aff2;
+    background-color: #2b4214e0;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(24, 43, 23, 0.808);
+}
+
+lego .cadr3 {
+    background: url('./Comics/ep1/cadr3.jpg');
+    width: 1400px;
+    height: 808px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+lego .but3ep1 {
+    background-color: #d2f9b1;
+    font-size: 40px;
+    padding: 4px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+    border-style: none;
+    transition: color, transform 500ms ease;
+}
+
+lego .but3ep1:hover,
+lego .but3ep1.active {
+    color: #ebf5aff2;
+    background-color: #2b421498;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(24, 43, 23, 0.808);
+}
+
+
+lego .cadr4 {
+    background: url('./Comics/ep1/cadr4.jpg');
+    width: 1400px;
+    height: 750px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+lego .text4 {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 260px;
+    padding: 5px;
+    color: #000000;
+    background-color: #75bd2d82;
+    border-radius: 30px;
+}
+
+lego .but4ep1 {
+    background-color: #d2f9b1;
+    font-size: 40px;
+    padding: 4px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+    border-style: none;
+    transition: color, transform 500ms ease;
+}
+
+lego .but4ep1:hover,
+lego .but4ep1.active {
+    color: #ebf5aff2;
+    background-color: #2b421498;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(24, 43, 23, 0.808);
+}
+
+lego .cadr5 {
+    background: url('./Comics/ep1/cadr5.jpg');
+    width: 1400px;
+    height: 744px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+lego .text5 {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 440px;
+    padding: 5px;
+    color: #000000;
+    background-color: #75bd2d82;
+    border-radius: 30px;
+}
+
+
 
 lego .legoblock {
     background: url('./Img/fon6.jpg') no-repeat;
