@@ -80,7 +80,7 @@ export default function Lego() {
                                                                                                                                     <button onClick={() => setNigaLe14(nigaLe14 = !nigaLe14)} className={`but13ep1 ${nigaLe14 && 'active'}`} >fix</button>
                                                                                                                                     {nigaLe14 && (
                                                                                                                                         <div className='cadr14'>
-                                                                                                                                            <div className='text14'>here she</div>
+                                                                                                                                            <div className='text14'>here it is</div>
                                                                                                                                             <button onClick={() => setNigaLe15(nigaLe15 = !nigaLe15)} className={`but14ep1 ${nigaLe15 && 'active'}`} >take</button>
                                                                                                                                             {nigaLe15 && (
                                                                                                                                                 <div className='cadr15'>
