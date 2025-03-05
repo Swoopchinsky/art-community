@@ -11,10 +11,10 @@ function App() {
     <div className='wrapper'>
       <Header />
       <Info />
+      <Lego />
       <Zima />
       <Vavilon />
       <Zaliv />
-      <Lego />
       <Footer />
 
     </div>
