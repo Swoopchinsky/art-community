@@ -1635,6 +1635,245 @@ lego .text18 {
     border-radius: 30px;
 }
 
+lego .but18ep1 {
+    background-color: #d2f9b1;
+    font-size: 40px;
+    padding: 4px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+    border-style: none;
+    transition: color, transform 500ms ease;
+}
+
+lego .but18ep1:hover,
+lego .but18ep1.active {
+    color: #ebf5aff2;
+    background-color: #2b421498;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(24, 43, 23, 0.808);
+}
+
+lego .cadr19 {
+    background: url('./Comics/ep1/cadr19.jpg');
+    width: 1400px;
+    height: 640px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+lego .text19 {
+    position: absolute;
+    margin-top: 528px;
+    margin-left: 740px;
+    padding: 5px;
+    color: #000000;
+    background-color: #a7ff917f;
+    border-radius: 30px;
+}
+
+lego .but19ep1 {
+    background-color: #d2f9b1;
+    font-size: 40px;
+    padding: 4px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+    border-style: none;
+    transition: color, transform 500ms ease;
+}
+
+lego .but19ep1:hover,
+lego .but19ep1.active {
+    color: #ebf5aff2;
+    background-color: #2b421498;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(24, 43, 23, 0.808);
+}
+
+lego .cadr20 {
+    background: url('./Comics/ep1/cadr20.jpg');
+    width: 1400px;
+    height: 640px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+lego .text20 {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 710px;
+    padding: 5px;
+    color: #000000;
+    background-color: #a7ff917f;
+    border-radius: 30px;
+}
+
+lego .but20ep1 {
+    background-color: #d2f9b1;
+    font-size: 40px;
+    padding: 4px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+    border-style: none;
+    transition: color, transform 500ms ease;
+}
+
+lego .but20ep1:hover,
+lego .but20ep1.active {
+    color: #ebf5aff2;
+    background-color: #2b421498;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(24, 43, 23, 0.808);
+}
+
+lego .cadr21 {
+    background: url('./Comics/ep1/cadr21.jpg');
+    width: 1400px;
+    height: 640px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+lego .text21 {
+    position: absolute;
+    margin-top: 396px;
+    margin-left: 1060px;
+    padding: 5px;
+    color: #000000;
+    background-color: #bcf6ad7f;
+    border-radius: 30px;
+}
+
+lego .but21ep1 {
+    background-color: #d2f9b1;
+    font-size: 40px;
+    padding: 4px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+    border-style: none;
+    transition: color, transform 500ms ease;
+}
+
+lego .but21ep1:hover,
+lego .but21ep1.active {
+    color: #ebf5aff2;
+    background-color: #2b421498;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(24, 43, 23, 0.808);
+}
+
+lego .cadr22 {
+    background: url('./Comics/ep1/cadr22.jpg');
+    width: 1400px;
+    height: 640px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+lego .text22 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 1210px;
+    padding: 5px;
+    color: #000000;
+    background-color: #bcf6ad7f;
+    border-radius: 30px;
+}
+
+lego .but22ep1 {
+    background-color: #d2f9b1;
+    font-size: 40px;
+    padding: 4px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+    border-style: none;
+    transition: color, transform 500ms ease;
+}
+
+lego .but22ep1:hover,
+lego .but22ep1.active {
+    color: #ebf5aff2;
+    background-color: #2b421498;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(24, 43, 23, 0.808);
+}
+
+lego .cadr23 {
+    background: url('./Comics/ep1/cadr23.jpg');
+    width: 1400px;
+    height: 640px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+lego .text23 {
+    position: absolute;
+    margin-top: 490px;
+    margin-left: 110px;
+    padding: 5px;
+    color: #000000;
+    background-color: #bcf6ad7f;
+    border-radius: 30px;
+}
+
+lego .but23ep1 {
+    background-color: #d2f9b1;
+    font-size: 40px;
+    padding: 4px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+    border-style: none;
+    transition: color, transform 500ms ease;
+}
+
+lego .but23ep1:hover,
+lego .but23ep1.active {
+    color: #ebf5aff2;
+    background-color: #2b421498;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(24, 43, 23, 0.808);
+}
+
+lego .cadr24 {
+    background: url('./Comics/ep1/cadr24.jpg');
+    width: 1400px;
+    height: 640px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+lego .text24 {
+    position: absolute;
+    margin-top: 538px;
+    margin-left: 110px;
+    padding: 5px;
+    color: #000000;
+    background-color: #d2f5ca5c;
+    border-radius: 30px;
+}
 
 
 
