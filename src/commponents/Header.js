@@ -211,11 +211,13 @@ export default function Header() {
                                                 </div>
                                             )}
                                         </div>
-                                        <div>Размер: 240 X 300</div>
-                                        <div>Масло Холст</div>
-                                        <div>Автор Garri Looking</div>
-                                        <div>Год: 2018</div>
-                                        <div>Цена: 10000 $</div>
+                                        <div className='menu9'>
+                                            <div>Размер: 240 X 300</div>
+                                            <div>Масло Холст</div>
+                                            <div>Автор Garri Looking</div>
+                                            <div>Год: 2018</div>
+                                            <div>Цена: 10000 $</div>
+                                        </div>
                                     </div>
                                 )}
                             </div>

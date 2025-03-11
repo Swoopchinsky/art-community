@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #eef9e2;
+    background: #f6feee;
     color: #070f10;
     font-family: "Roboto:ital,wght@0,100..900;1,100..900", "Monomakh", serif;
     font-weight: 200;
@@ -25,8 +25,11 @@ header {
 
 header .logo {
     font-weight: 400;
+    background-color: #38593471;
     font-size: 40px;
-    padding-left: 500px;
+    margin-left: 500px;
+    padding: 8px;
+    border-radius: 24px;
 }
 
 header .presentation {
@@ -45,34 +48,34 @@ header .presentation {
 header .presentation::after {
     content: 'development';
     position: absolute;
-    top: 84px;
-    left: 326px;
+    top: 74px;
+    left: 280px;
     width: 600px;
-    font-size: 38px;
+    font-size: 44px;
     font-weight: 600px;
     color: #385934;
 }
 
 header .but1 {
-    font-size: 42px;
+    font-size: 44px;
     border-radius: 22px;
-    border-style: none;
-    color: #183e11;
+    border-style: solid;
+    color: #25511d;
     background-color: transparent;
     padding: 5px;
-    margin-left: 223px;
-    margin-top: 77px;
+    margin-left: 360px;
+    margin-top: 20px;
     transition: color, transform 500ms ease;
     cursor: pointer;
-    -webkit-box-shadow: 0px 7px 7px 7px rgba(40, 144, 22, 0.2);
-    -moz-box-shadow: 0px 7px 7px 7px rgba(40, 144, 22, 0.2);
-    box-shadow: 0px 7px 7px 7px rgb(28, 105, 21);
+    -webkit-box-shadow: 0px 3px 3px 3px rgba(40, 144, 22, 0.2);
+    -moz-box-shadow: 0px 3px 3px 3px rgba(40, 144, 22, 0.2);
+    box-shadow: 0px 3px 3px 3px rgba(105, 142, 101, 0.68);
 }
 
 header .but1:hover,
 header .but1.active {
-    color: #3f633b;
-    background-color: transparent;
+    color: #c9ebc5;
+    background-color: #000000;
     transform: scale(1.3);
 }
 
@@ -110,14 +113,14 @@ header .but2 {
     top: 537px;
     color: #f1f2e5;
     background-color: transparent;
-    border-style: none;
+    border-style: solid;
     transition: color, transform 500ms ease;
     cursor: pointer;
     border-radius: 30px;
     padding: 5px;
     -webkit-box-shadow: 0px 7px 7px 7px rgba(40, 144, 22, 0.2);
     -moz-box-shadow: 0px 7px 7px 7px rgb(112, 235, 91);
-    box-shadow: 0px 5px 7px 7px rgb(40, 144, 22);
+    box-shadow: 0px 3px 3px 3px rgb(79, 105, 75);
 
 }
 
@@ -126,7 +129,7 @@ header .but2.active {
     color: rgb(211, 251, 162);
     transform: scale(1.12);
     border-radius: 30px;
-    background-color: transparent;
+    background-color: #000000;
 }
 
 header .pole2 {
@@ -136,7 +139,7 @@ header .pole2 {
     height: auto;
     font-size: 48px;
     margin-left: 250px;
-    margin-top: 480px;
+    margin-top: 520px;
     padding-left: 22px;
     padding-top: 22px;
     border-radius: 40px;
@@ -147,11 +150,12 @@ header .pole2 {
 }
 
 header .menu {
-    font-size: 60px;
+    font-size: 66px;
     color: #212554;
     cursor: pointer;
     transition: color, transform 500ms ease;
     margin-left: 50px;
+    border-style: solid;
     border-radius: 22px;
 }
 
@@ -183,19 +187,23 @@ header .menu1 {
 
 header .menu2 {
     position: absolute;
-
     font-size: 50px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #e081cc5a;
+    padding: 5px;
     left: 420px;
     bottom: 26px;
     transition: color, transform 500ms ease;
+    cursor: pointer;
 }
 
 header .menu2:hover,
 header .menu2.active {
-    color: #787ac9;
-    background-color: #dff5bf;
+    color: #e1e2f5;
+    background-color: #171c109a;
     transform: scale(1.2);
-    border-radius: 10px;
+    border-radius: 20px;
     -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
     -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
     box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
@@ -217,16 +225,19 @@ header .menu3 {
 header .menu4 {
     font-size: 46px;
     border-radius: 20px;
+    border-style: solid;
+    padding: 6px;
     margin-left: 10px;
     transition: color, transform 500ms ease;
     background-color: transparent;
+    cursor: pointer;
 
 }
 
 header .menu4:hover,
 header .menu4.active {
-    color: #11115b;
-    background-color: transparent;
+    color: #b7b7f7;
+    background-color: #00000082;
     transform: scale(1.2);
     border-radius: 22px;
     -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
@@ -236,6 +247,12 @@ header .menu4.active {
 
 header .menu6 {
     font-style: 58px;
+    background-color: #27173d2f;
+    padding: 6px;
+    border-radius: 26px;
+    width: 260px;
+    position: relative;
+    top: 6px;
 }
 
 header .menu7 {
@@ -244,46 +261,57 @@ header .menu7 {
     transition: color, transform 500ms ease;
     -webkit-box-shadow: 0px 7px 7px 7px rgba(29, 70, 100, 0.662);
     -moz-box-shadow: 0px 7px 7px 7px rgba(34, 60, 80, 0.26);
-    box-shadow: 0px 7px 7px 7px rgba(132, 191, 240, 0.623);
+    box-shadow: 0px 7px 7px 7px rgba(149, 155, 159, 0.623);
     border-radius: 20px;
+    border-style: solid;
+    padding: 4px;
+    cursor: pointer;
 
 }
 
 header .menu7:hover,
 header .menu7.active {
-    color: #bfbff3;
-    background-color: transparent;
+    color: #d9d9e8;
+    background-color: #000000;
     transform: scale(1.2);
     border-radius: 22px;
     -webkit-box-shadow: 0px 7px 7px 7px rgba(80, 145, 195, 0.662);
     -moz-box-shadow: 0px 7px 7px 7px rgba(34, 60, 80, 0.26);
-    box-shadow: 0px 7px 7px 7px rgba(61, 162, 239, 0.648);
+    box-shadow: 0px 7px 7px 7px rgba(233, 240, 244, 0.648);
 }
 
 header .menu8 {
-    background: url(./Img/sova1.jpg) no-repeat;
+    background: url('./Img/sova1.jpg') no-repeat;
     height: 580px;
     width: 1280px;
     padding: 12px;
     border-radius: 30px;
 }
 
-
+header .menu9 {
+    background-color: #6a38b93e;
+    position: relative;
+    width: 510px;
+    padding: 8px;
+    border-radius: 22px;
+    top: 6px;
+}
 
 header .pers {
-    font-size: 60px;
+    font-size: 66px;
     color: #230f0b;
     cursor: pointer;
     transition: color, transform 500ms ease;
     margin-left: 90px;
     border-radius: 22px;
+    border-style: solid;
 
 
 }
 
 header .pers:hover,
 header .pers.active {
-    color: #cdfac9;
+    color: #eefced;
     background-color: #230f0b;
     transform: scale(1.5);
     -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
@@ -303,6 +331,7 @@ header .pers1 {
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     border-radius: 30px;
+    border-style: solid;
     z-index: 1000;
 }
 
@@ -769,11 +798,13 @@ header .tel11 {
 }
 
 header .goo {
-    font-size: 60px;
+    font-size: 66px;
     color: #0b1301;
     cursor: pointer;
     transition: color, transform 500ms ease;
     margin-left: 50px;
+    border-style: solid;
+    border-radius: 22px;
 
 }
 
