@@ -839,11 +839,14 @@ header .goo1 {
 .info {
     font-size: 60px;
     padding-left: 250px;
+    background-color: #0c50f131;
+    border-radius: 38px;
+
 }
 
 info .infoblock {
     background: url('./Img/fon2.jpg');
-    border-radius: 30px;
+    border-radius: 50px;
     width: 100%;
     height: 580px;
     font-size: 55px;
@@ -851,21 +854,53 @@ info .infoblock {
 }
 
 info .infoblock::after {
-    content: 'Быстро и Просто';
+    content: 'Alexandr Blok 1918 Skify:';
     position: absolute;
-    width: 500px;
+    width: 700px;
     top: 40px;
     left: 70px;
-    color: #9ec59a;
+    color: #e0f8f1bd;
 }
 
+info .book {
+    color: #0b0318;
+    background-color: #dee6f8c5;
+    padding: 8px;
+    font-size: 78px;
+    margin-left: 760px;
+    margin-top: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+    border-style: solid;
+}
+
+info .book:hover,
+info .book.active {
+    transform: scale(1.2);
+    color: #f0f3fa;
+    background-color: #050c0fd8;
+}
+
+info .skify {
+    position: relative;
+    background-color: #f0f3fa;
+    border-radius: 50px;
+    border-style: solid;
+    font-size: 60px;
+    padding: 7px;
+    padding-left: 50px;
+    z-index: 1012;
+}
+
+
 info .infoblock::before {
-    content: 'Развертывание и Поддержка';
+    content: 'quickly and ease';
     position: absolute;
     width: 700px;
     top: 470px;
     left: 680px;
-    color: #9ec59a;
+    color: #dbe4eda9;
 }
 
 .zima {
@@ -2077,6 +2112,35 @@ lego .text27 {
     background-color: #d2f5ca5c;
     border-radius: 30px;
 }
+
+lego .ep2 {
+    font-size: 50px;
+    margin: 5px;
+    margin-left: 35px;
+    padding: 8px;
+    border-radius: 40px;
+    border-style: solid;
+    background: transparent;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+
+lego .ep2:hover,
+lego .ep2.active {
+    transform: scale(1.1);
+    color: #e7f344;
+    background-color: #11160797;
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+}
+
+lego .ep2cadr1 {
+    width: 1400px;
+    background-color: #92ee07b5;
+}
+
+
 
 
 
