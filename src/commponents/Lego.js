@@ -38,6 +38,8 @@ export default function Lego() {
     let [nigaLe32, setNigaLe32] = useState(false)
     let [nigaLe33, setNigaLe33] = useState(false)
     let [nigaLe34, setNigaLe34] = useState(false)
+    let [nigaLe35, setNigaLe35] = useState(false)
+    let [nigaLe36, setNigaLe36] = useState(false)
 
 
 
@@ -244,7 +246,20 @@ export default function Lego() {
                                                                     <p className='ep2text5'>calculation accuracy</p>
                                                                     <button onClick={() => setNigaLe34(nigaLe34 = !nigaLe34)} className={`ep2but5 ${nigaLe34 && 'active'}`} >light up</button>
                                                                     {nigaLe34 && (
-                                                                        <div className='ep2cadr6'></div>
+                                                                        <div className='ep2cadr6'>
+                                                                            <p className='ep2text6'>beauty</p>
+                                                                            <button onClick={() => setNigaLe35(nigaLe35 = !nigaLe35)} className={`ep2but6 ${nigaLe35 && 'active'}`} >step on the gas</button>
+                                                                            {nigaLe35 && (
+                                                                                <div className='ep2cadr7'>
+                                                                                    <p className='ep2text7'>quantum leap</p>
+                                                                                    <button onClick={() => setNigaLe36(nigaLe36 = !nigaLe36)} className={`ep2but7 ${nigaLe36 && 'active'}`} >move now</button>
+                                                                                    {nigaLe36 && (
+                                                                                        <div className='ep2cadr8'></div>
+                                                                                    )}
+                                                                                </div>
+                                                                            )}
+                                                                        </div>
+
                                                                     )}
                                                                 </div>
                                                             )}
