@@ -35,6 +35,11 @@ export default function Lego() {
 
     let [nigaLe30, setNigaLe30] = useState(false)
     let [nigaLe31, setNigaLe31] = useState(false)
+    let [nigaLe32, setNigaLe32] = useState(false)
+    let [nigaLe33, setNigaLe33] = useState(false)
+    let [nigaLe34, setNigaLe34] = useState(false)
+
+
 
     return (
         <lego>
@@ -227,7 +232,26 @@ export default function Lego() {
                                             <p className='ep2text2'>eveything works</p>
                                             <button onClick={() => setNigaLe31(nigaLe31 = !nigaLe31)} className={`ep2but2 ${nigaLe31 && 'active'}`} >check</button>
                                             {nigaLe31 && (
-                                                <div className='ep2cadr3'>ho</div>
+                                                <div className='ep2cadr3'>
+                                                    <p className='ep2text3'>flow accumulator</p>
+                                                    <button onClick={() => setNigaLe32(nigaLe32 = !nigaLe32)} className={`ep2but3 ${nigaLe32 && 'active'}`} >start the system</button>
+                                                    {nigaLe32 && (
+                                                        <div className='ep2cadr4'>
+                                                            <p className='ep2text4'>readiness number one</p>
+                                                            <button onClick={() => setNigaLe33(nigaLe33 = !nigaLe33)} className={`ep2but4 ${nigaLe33 && 'active'}`} >Doc come here</button>
+                                                            {nigaLe33 && (
+                                                                <div className='ep2cadr5'>
+                                                                    <p className='ep2text5'>calculation accuracy</p>
+                                                                    <button onClick={() => setNigaLe34(nigaLe34 = !nigaLe34)} className={`ep2but5 ${nigaLe34 && 'active'}`} >light up</button>
+                                                                    {nigaLe34 && (
+                                                                        <div className='ep2cadr6'></div>
+                                                                    )}
+                                                                </div>
+                                                            )}
+
+                                                        </div>
+                                                    )}
+                                                </div>
                                             )}
                                         </div>
                                     )}
