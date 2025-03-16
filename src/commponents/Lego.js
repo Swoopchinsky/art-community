@@ -33,6 +33,9 @@ export default function Lego() {
 
     let [nigaLe29, setNigaLe29] = useState(false)
 
+    let [nigaLe30, setNigaLe30] = useState(false)
+    let [nigaLe31, setNigaLe31] = useState(false)
+
     return (
         <lego>
             <div className='lego'>
@@ -214,7 +217,21 @@ export default function Lego() {
                             )}
                             <button onClick={() => setNigaLe29(nigaLe29 = !nigaLe29)} className={`ep2 ${nigaLe29 && 'active'}`} >Episode 2</button>
                             {nigaLe29 && (
-                                <div className='ep2cadr1'>Go</div>
+                                <div className='ep2cadr1'>
+                                    <p className='ep2text1'>
+                                        <b>dedicated to Michael J.Fox</b>
+                                    </p>
+                                    <button onClick={() => setNigaLe30(nigaLe30 = !nigaLe30)} className={`ep2but1 ${nigaLe30 && 'active'}`} >look</button>
+                                    {nigaLe30 && (
+                                        <div className='ep2cadr2'>
+                                            <p className='ep2text2'>eveything works</p>
+                                            <button onClick={() => setNigaLe31(nigaLe31 = !nigaLe31)} className={`ep2but2 ${nigaLe31 && 'active'}`} >check</button>
+                                            {nigaLe31 && (
+                                                <div className='ep2cadr3'>ho</div>
+                                            )}
+                                        </div>
+                                    )}
+                                </div>
                             )}
                         </div>
                     )}

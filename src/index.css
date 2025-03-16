@@ -2138,8 +2138,99 @@ lego .ep2.active {
 lego .ep2cadr1 {
     width: 1400px;
     background-color: #92ee07b5;
+    background: url('./Comics/ep2/cadr1ep2.jpg');
+    height: 640px;
+    border-radius: 30px;
+    border-style: solid;
+    position: relative;
+    z-index: 1007;
 }
 
+lego .ep2text1 {
+    font-size: 52px;
+    padding: 7px;
+    background-color: #a8df4e41;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 690px;
+    color: #000000;
+    border-radius: 30px;
+}
+
+lego .ep2but1 {
+    background-color: #c8fa2589;
+    font-size: 40px;
+    padding: 4px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+lego .ep2but1:hover,
+lego .ep2but1.active {
+    color: #ebf5aff2;
+    background-color: #2b421473;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(24, 43, 23, 0.808);
+}
+
+lego .ep2cadr2 {
+    width: 1400px;
+    background: url('./Comics/ep2/cadr2ep2.jpg');
+    height: 640px;
+    border-radius: 30px;
+    border-style: solid;
+    position: absolute;
+}
+
+lego .ep2text2 {
+    font-size: 52px;
+    padding: 7px;
+    background-color: #a8df4e1f;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 920px;
+    color: #000000;
+    border-radius: 30px;
+}
+
+lego .ep2but2 {
+    background-color: #c8fa2589;
+    font-size: 40px;
+    padding: 4px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+lego .ep2but2:hover,
+lego .ep2but2.active {
+    color: #ebf5aff2;
+    background-color: #2b421473;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(24, 43, 23, 0.808);
+}
+
+lego .ep2cadr3 {
+    width: 1400px;
+    background: url('./Comics/ep2/cadr3ep2.jpg');
+    height: 640px;
+    border-radius: 30px;
+    border-style: solid;
+    position: absolute;
+}
 
 
 
