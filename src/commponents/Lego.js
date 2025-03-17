@@ -40,6 +40,12 @@ export default function Lego() {
     let [nigaLe34, setNigaLe34] = useState(false)
     let [nigaLe35, setNigaLe35] = useState(false)
     let [nigaLe36, setNigaLe36] = useState(false)
+    let [nigaLe37, setNigaLe37] = useState(false)
+    let [nigaLe38, setNigaLe38] = useState(false)
+    let [nigaLe39, setNigaLe39] = useState(false)
+    let [nigaLe40, setNigaLe40] = useState(false)
+    let [nigaLe41, setNigaLe41] = useState(false)
+
 
 
 
@@ -254,7 +260,37 @@ export default function Lego() {
                                                                                     <p className='ep2text7'>quantum leap</p>
                                                                                     <button onClick={() => setNigaLe36(nigaLe36 = !nigaLe36)} className={`ep2but7 ${nigaLe36 && 'active'}`} >move now</button>
                                                                                     {nigaLe36 && (
-                                                                                        <div className='ep2cadr8'></div>
+                                                                                        <div className='ep2cadr8'>
+                                                                                            <p className='ep2text8'>time trevel</p>
+                                                                                            <button onClick={() => setNigaLe37(nigaLe37 = !nigaLe37)} className={`ep2but8 ${nigaLe37 && 'active'}`} >make a move</button>
+                                                                                            {nigaLe37 && (
+                                                                                                <div className='ep2cadr9'>
+                                                                                                    <p className='ep2text9'>space-time continuum</p>
+                                                                                                    <button onClick={() => setNigaLe38(nigaLe38 = !nigaLe38)} className={`ep2but9 ${nigaLe38 && 'active'}`} >import</button>
+                                                                                                    {nigaLe38 && (
+                                                                                                        <div className='ep2cadr10'>
+                                                                                                            <p className='ep2text10'>failure of specified paremeters</p>
+                                                                                                            <button onClick={() => setNigaLe39(nigaLe39 = !nigaLe39)} className={`ep2but10 ${nigaLe39 && 'active'}`} >sddenly</button>
+                                                                                                            {nigaLe39 && (
+                                                                                                                <div className='ep2cadr11'>
+                                                                                                                    <p className='ep2text11'>emergency landing</p>
+                                                                                                                    <button onClick={() => setNigaLe40(nigaLe40 = !nigaLe40)} className={`ep2but11 ${nigaLe40 && 'active'}`} >get out fo the car</button>
+                                                                                                                    {nigaLe40 && (
+                                                                                                                        <div className='ep2cadr12'>
+                                                                                                                            <p className='ep2text12'>unknown territory</p>
+                                                                                                                            <button onClick={() => setNigaLe41(nigaLe41 = !nigaLe41)} className={`ep2but12 ${nigaLe41 && 'active'}`} >research</button>
+                                                                                                                            {nigaLe41 && (
+                                                                                                                                <div className='ep2cadr13'></div>
+                                                                                                                            )}
+                                                                                                                        </div>
+                                                                                                                    )}
+                                                                                                                </div>
+                                                                                                            )}
+                                                                                                        </div>
+                                                                                                    )}
+                                                                                                </div>
+                                                                                            )}
+                                                                                        </div>
                                                                                     )}
                                                                                 </div>
                                                                             )}
