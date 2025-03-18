@@ -53,8 +53,9 @@ export default function Lego() {
     let [nigaLe47, setNigaLe47] = useState(false)
     let [nigaLe48, setNigaLe48] = useState(false)
     let [nigaLe49, setNigaLe49] = useState(false)
-
-
+    let [nigaLe50, setNigaLe50] = useState(false)
+    let [nigaLe51, setNigaLe51] = useState(false)
+    let [nigaLe52, setNigaLe52] = useState(false)
 
 
 
@@ -279,7 +280,7 @@ export default function Lego() {
                                                                                                     {nigaLe38 && (
                                                                                                         <div className='ep2cadr10'>
                                                                                                             <p className='ep2text10'>failure of specified paremeters</p>
-                                                                                                            <button onClick={() => setNigaLe39(nigaLe39 = !nigaLe39)} className={`ep2but10 ${nigaLe39 && 'active'}`} >sddenly</button>
+                                                                                                            <button onClick={() => setNigaLe39(nigaLe39 = !nigaLe39)} className={`ep2but10 ${nigaLe39 && 'active'}`} >suddenly</button>
                                                                                                             {nigaLe39 && (
                                                                                                                 <div className='ep2cadr11'>
                                                                                                                     <p className='ep2text11'>emergency landing</p>
@@ -321,7 +322,25 @@ export default function Lego() {
                                                                                                                                                                                             <p className='ep2text20'>Dron Fierce</p>
                                                                                                                                                                                             <button onClick={() => setNigaLe49(nigaLe49 = !nigaLe49)} className={`ep2but20 ${nigaLe49 && 'active'}`} >Captain's security</button>
                                                                                                                                                                                             {nigaLe49 && (
-                                                                                                                                                                                                <div className='ep2cadr21'></div>
+                                                                                                                                                                                                <div className='ep2cadr21'>
+                                                                                                                                                                                                    <p className='ep2text21'>inspect the loot</p>
+                                                                                                                                                                                                    <button onClick={() => setNigaLe50(nigaLe50 = !nigaLe50)} className={`ep2but21 ${nigaLe50 && 'active'}`} >learn the operating principle</button>
+                                                                                                                                                                                                    {nigaLe50 && (
+                                                                                                                                                                                                        <div className='ep2cadr22'>
+                                                                                                                                                                                                            <p className='ep2text22'>tell everything</p>
+                                                                                                                                                                                                            <button onClick={() => setNigaLe51(nigaLe51 = !nigaLe51)} className={`ep2but22 ${nigaLe51 && 'active'}`} >accompany</button>
+                                                                                                                                                                                                            {nigaLe51 && (
+                                                                                                                                                                                                                <div className='ep2cadr23'>
+                                                                                                                                                                                                                    <p className='ep2text23'>show settings</p>
+                                                                                                                                                                                                                    <button onClick={() => setNigaLe52(nigaLe52 = !nigaLe52)} className={`ep2but23 ${nigaLe52 && 'active'}`} >preparation</button>
+                                                                                                                                                                                                                    {nigaLe52 && (
+                                                                                                                                                                                                                        <div className='ep2cadr24'></div>
+                                                                                                                                                                                                                    )}
+                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                            )}
+                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                    )}
+                                                                                                                                                                                                </div>
                                                                                                                                                                                             )}
                                                                                                                                                                                         </div>
                                                                                                                                                                                     )}

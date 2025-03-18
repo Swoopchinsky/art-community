@@ -10,7 +10,7 @@ export default function Info() {
     return (
         <info>
             <div className='info'>
-                hormony in meanings
+                harmony in meanings
             </div>
             <div className='infoblock'>
                 <FaBookJournalWhills onClick={() => setBlokKroot(blokKroot = !blokKroot)} className={`book ${blokKroot && 'active'}`} />
