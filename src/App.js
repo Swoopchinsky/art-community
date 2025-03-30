@@ -9,9 +9,9 @@ import Lego from "./commponents/Lego";
 function App() {
   return (
     <div className='wrapper'>
+      <Lego />
       <Header />
       <Info />
-      <Lego />
       <Zima />
       <Vavilon />
       <Zaliv />
