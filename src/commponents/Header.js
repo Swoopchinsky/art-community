@@ -58,7 +58,7 @@ export default function Header() {
     return (
         <header>
             <div>
-                <span className='logo'>IT Art Community</span>
+                <span className='logo'> community art tehnoligy emperium flo</span>
             </div>
             <BsFillPersonLinesFill onClick={() => setNigaYo(nigaYo = !nigaYo)} className={`pers ${nigaYo && 'active'}`} />
             {nigaYo && (
