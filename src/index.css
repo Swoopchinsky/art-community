@@ -46,10 +46,10 @@ header .presentation {
 }
 
 header .presentation::after {
-    content: 'development';
+    content: 'abstraction';
     position: absolute;
-    top: 74px;
-    left: 280px;
+    top: 160px;
+    left: 300px;
     width: 600px;
     font-size: 44px;
     font-weight: 600px;
@@ -57,19 +57,18 @@ header .presentation::after {
 }
 
 header .but1 {
-    font-size: 44px;
-    border-radius: 22px;
-    border-style: solid;
+    width: 118px;
+    height: 150px;
+    border-radius: 31px;
     color: #25511d;
+    background: url('./Img/obr1.jpg');
     background-color: transparent;
-    padding: 5px;
-    margin-left: 360px;
-    margin-top: 20px;
+    padding: 1px;
+    margin-left: 380px;
+    margin-top: -8px;
     transition: color, transform 500ms ease;
     cursor: pointer;
-    -webkit-box-shadow: 0px 3px 3px 3px rgba(40, 144, 22, 0.2);
-    -moz-box-shadow: 0px 3px 3px 3px rgba(40, 144, 22, 0.2);
-    box-shadow: 0px 3px 3px 3px rgba(105, 142, 101, 0.68);
+
 }
 
 header .but1:hover,
@@ -81,11 +80,11 @@ header .but1.active {
 
 header .pole1 {
     position: absolute;
-    background-color: #ffffff;
-    width: 944px;
-    height: auto;
+    background: url('./Img/obr2.jpg');
+    width: 1380px;
+    height: 1800px;
     font-size: 48px;
-    margin-left: 20px;
+    margin-left: 2px;
     padding-left: 22px;
     padding-top: 22px;
     border-radius: 40px;

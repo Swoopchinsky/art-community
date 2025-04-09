@@ -68,8 +68,12 @@ export default function Header() {
                     <GiMuscleUp onClick={() => setNigaYo3(nigaYo3 = !nigaYo3)} className={`iga1 ${nigaYo3 && 'active'}`} />
                     {nigaYo3 && (
                         <div className='iga2'>
-                            Разработка Web сайтов при помощи JavaScript технологии ReactJS. Размещение на Хостинге GitHub Pages.
-                            Также составление графиков на Python, библиотека matplotlib. Pyplot. Jupyter notebook.
+                            Создание Вэб сайтов на JavaScript. <br />
+                            React JS. <br />
+                            Размещение GitHub Pages. <br />
+                            Кнопочки, Картинки. <br />
+                            UX, CSS, HTML.
+
                             <BsTelephone onClick={() => setNigaYo4(nigaYo4 = !nigaYo4)} className={`tel ${nigaYo4 && 'active'}`} />
                             {nigaYo4 && (
                                 <div className='tel1'>
@@ -93,8 +97,8 @@ export default function Header() {
                             <GiRotaryPhone onClick={() => setNigaYo6(nigaYo6 = !nigaYo6)} className={`tel2 ${nigaYo6 && 'active'}`} />
                             {nigaYo6 && (
                                 <div className='tel3'>
-                                    <div>Дмитрий Юрич</div>
-                                    <div>+7 921 900 47 39</div>
+                                    <div>Masterpisman</div>
+                                    <div>incognita</div>
                                     <div>WhatsApp</div>
                                     <div>Telegram</div>
                                     <div>Санкт-Петербург</div>
@@ -113,7 +117,7 @@ export default function Header() {
                                 Запись Музыки на Заказ.
                                 Пишет Музыку C 8 лет!
                                 Совместная работа.
-                                Человек Звук.
+                                Человек Звук. Кантри Рок
                             </ul>
                             <GiMadScientist onClick={() => setNigaYo8(nigaYo8 = !nigaYo8)} className={`tel4 ${nigaYo8 && 'active'}`} />
                             {nigaYo8 && (
@@ -240,18 +244,13 @@ export default function Header() {
             )}
 
             <div className='presentation'>
-                <button onClick={() => setNigaYo15(nigaYo15 = !nigaYo15)} className={`but1 ${nigaYo15 && 'active'}`} >Web</button>
+                <button onClick={() => setNigaYo15(nigaYo15 = !nigaYo15)} className={`but1 ${nigaYo15 && 'active'}`} ></button>
                 {nigaYo15 && (
                     <div className='pole1'>
-                        <div>welcom to the long path in the dark forest of knowledge:</div>
-                        <div>JavaScript Provides Features.</div>
-                        <div>Высокая скорость разработки.</div>
-                        <div>Заточенность под мобильное использование.</div>
-                        <div>Уникальность дизайна.</div>
-                        <div>Одностраничный сайт - идеальный инструмент для малого и среднего бизнеса.</div>
-                        <div>Компании могут предоставить свои услуги, контакты, портфолио и отзывы клиентов на одной странице.</div>
-                        <div>Ссылку на сайт можно указать в визитках, в разговоре, в рекламных материалах.</div>
-                        <div>На сайте легко публиковать информацию. Помогает Вам обеспечить свое  постоянное присутствие в Интернете.</div>
+                        <div>
+                            <p>large-scale analytics</p>
+                        </div>
+
                     </div>
                 )}
                 <button onClick={() => setNigaYo16(nigaYo16 = !nigaYo16)} className={`but2 ${nigaYo16 && 'active'}`} >Information</button>
