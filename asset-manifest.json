@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/art-community/static/css/main.47d57e03.css",
-    "main.js": "/art-community/static/js/main.bfa658c8.js",
+    "main.css": "/art-community/static/css/main.caeb31e6.css",
+    "main.js": "/art-community/static/js/main.65aa13c2.js",
     "static/media/fon01.jpg": "/art-community/static/media/fon01.dfc464fb80a6a0c3e6fe.jpg",
     "static/media/sova.jpg": "/art-community/static/media/sova.e33c69d3b4b241d53276.jpg",
     "static/media/obr2.jpg": "/art-community/static/media/obr2.1ea3d76f6f8fe541def8.jpg",
@@ -11,6 +11,7 @@
     "static/media/cadr12.jpg": "/art-community/static/media/cadr12.698430dba1e048ed1e6c.jpg",
     "static/media/cadr10.jpg": "/art-community/static/media/cadr10.5d8feb95d6413b2a816e.jpg",
     "static/media/cadr7.jpg": "/art-community/static/media/cadr7.b8fadb34355b59f0c825.jpg",
+    "static/media/obr4.jpg": "/art-community/static/media/obr4.ca6593034b607c1e94d8.jpg",
     "static/media/sova1.jpg": "/art-community/static/media/sova1.5f9fbb8b1b8eeb87d68d.jpg",
     "static/media/cadr8.jpg": "/art-community/static/media/cadr8.dabd211f75534ab785eb.jpg",
     "static/media/cadr30ep2.jpg": "/art-community/static/media/cadr30ep2.0517ae947987f7b2adb6.jpg",
@@ -91,13 +92,14 @@
     "static/media/cadr12ep2.jpg": "/art-community/static/media/cadr12ep2.e897b6e92e329c5860c2.jpg",
     "static/media/fon3.jpg": "/art-community/static/media/fon3.58459aee911421f54a65.jpg",
     "static/media/fon2.jpg": "/art-community/static/media/fon2.b602cf2855cb01d8d2ea.jpg",
+    "static/media/obr3.jpg": "/art-community/static/media/obr3.f89e3df3637e4bd67b57.jpg",
     "static/media/obr1.jpg": "/art-community/static/media/obr1.e428fb6f2e7dba2a3237.jpg",
     "index.html": "/art-community/index.html",
-    "main.47d57e03.css.map": "/art-community/static/css/main.47d57e03.css.map",
-    "main.bfa658c8.js.map": "/art-community/static/js/main.bfa658c8.js.map"
+    "main.caeb31e6.css.map": "/art-community/static/css/main.caeb31e6.css.map",
+    "main.65aa13c2.js.map": "/art-community/static/js/main.65aa13c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.47d57e03.css",
-    "static/js/main.bfa658c8.js"
+    "static/css/main.caeb31e6.css",
+    "static/js/main.65aa13c2.js"
   ]
 }
