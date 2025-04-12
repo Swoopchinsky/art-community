@@ -95,56 +95,48 @@ header .pole1 {
 }
 
 header .presentation::before {
-    content: 'Absolute Control of ';
+    content: 'perspective';
     position: absolute;
-    top: 540px;
-    left: 222px;
-    width: 800px;
+    top: 408px;
+    left: 522px;
+    width: 990px;
     font-size: 48px;
     font-weight: 600px;
-    color: #f1f2e5;
+    color: #72ef509e;
 }
 
 header .but2 {
-    font-size: 50px;
     position: absolute;
-    left: 684px;
-    top: 537px;
-    color: #f1f2e5;
-    background-color: transparent;
-    border-style: solid;
+    width: 300px;
+    height: 70px;
+    left: 906px;
+    top: 304px;
+    background: url('./Img/obr3.jpg');
     transition: color, transform 500ms ease;
     cursor: pointer;
     border-radius: 30px;
-    padding: 5px;
-    -webkit-box-shadow: 0px 7px 7px 7px rgba(40, 144, 22, 0.2);
-    -moz-box-shadow: 0px 7px 7px 7px rgb(112, 235, 91);
-    box-shadow: 0px 3px 3px 3px rgb(79, 105, 75);
-
 }
 
 header .but2:hover,
 header .but2.active {
-    color: rgb(211, 251, 162);
     transform: scale(1.12);
     border-radius: 30px;
-    background-color: #000000;
 }
 
 header .pole2 {
     position: absolute;
-    background-color: #ffffff;
-    width: 944px;
+    background: url('./Img/obr4.jpg');
+    color: rgba(170, 192, 25, 0.82);
+    width: 1370px;
     height: auto;
     font-size: 48px;
-    margin-left: 250px;
-    margin-top: 520px;
+    margin-top: 320px;
     padding-left: 22px;
     padding-top: 22px;
     border-radius: 40px;
     border-width: 3px;
     border-style: solid;
-    border-color: #395636;
+    border-color: #baeab5c7;
     z-index: 1001;
 }
 

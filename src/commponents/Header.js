@@ -246,14 +246,9 @@ export default function Header() {
             <div className='presentation'>
                 <button onClick={() => setNigaYo15(nigaYo15 = !nigaYo15)} className={`but1 ${nigaYo15 && 'active'}`} ></button>
                 {nigaYo15 && (
-                    <div className='pole1'>
-                        <div>
-                            <p>large-scale analytics</p>
-                        </div>
-
-                    </div>
+                    <div className='pole1'></div>
                 )}
-                <button onClick={() => setNigaYo16(nigaYo16 = !nigaYo16)} className={`but2 ${nigaYo16 && 'active'}`} >Information</button>
+                <button onClick={() => setNigaYo16(nigaYo16 = !nigaYo16)} className={`but2 ${nigaYo16 && 'active'}`} ></button>
                 {nigaYo16 && (
                     <div className='pole2'>
                         <div>the most valuable resource of our time</div>
