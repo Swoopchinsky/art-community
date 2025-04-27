@@ -58,7 +58,7 @@ export default function Header() {
     return (
         <header>
             <div>
-                <span className='logo'> community art tehnoligy emperium flo</span>
+                <span className='logo'> art tehnoligy emperium flou</span>
             </div>
             <BsFillPersonLinesFill onClick={() => setNigaYo(nigaYo = !nigaYo)} className={`pers ${nigaYo && 'active'}`} />
             {nigaYo && (
@@ -68,17 +68,17 @@ export default function Header() {
                     <GiMuscleUp onClick={() => setNigaYo3(nigaYo3 = !nigaYo3)} className={`iga1 ${nigaYo3 && 'active'}`} />
                     {nigaYo3 && (
                         <div className='iga2'>
-                            Создание Вэб сайтов на JavaScript. <br />
+                            JavaScript. <br />
                             React JS. <br />
-                            Размещение GitHub Pages. <br />
-                            Кнопочки, Картинки. <br />
+                            GitHub Pages. <br />
+                            Кнопочки, Картинки. Поля <br />
                             UX, CSS, HTML.
 
                             <BsTelephone onClick={() => setNigaYo4(nigaYo4 = !nigaYo4)} className={`tel ${nigaYo4 && 'active'}`} />
                             {nigaYo4 && (
                                 <div className='tel1'>
-                                    <div>Игарян Борисч</div>
-                                    <div>+7 921 593 63 24</div>
+                                    <div>Игарян</div>
+                                    <address>8 921 593 63 24</address>
                                     <div>WhatsApp</div>
                                     <div>Telegram</div>
                                     <div>Санкт-Петерберг</div>
@@ -88,7 +88,7 @@ export default function Header() {
 
 
                     )}
-                    <div className='dim'>Dima Masterpisman</div>
+                    <div className='dim'>Don D</div>
                     <GiScrollUnfurled onClick={() => setNigaYo5(nigaYo5 = !nigaYo5)} className={`dim1 ${nigaYo5 && 'active'}`} />
                     {nigaYo5 && (
                         <div className='dim2'>
@@ -111,12 +111,7 @@ export default function Header() {
                     {nigaYo7 && (
                         <div className='il2'>
                             <ul>
-                                Звукообработка.
-                                Современный подход к Классическому Стилю.
-                                Использование Новейших Программ.
-                                Запись Музыки на Заказ.
-                                Пишет Музыку C 8 лет!
-                                Совместная работа.
+
                                 Человек Звук. Кантри Рок
                             </ul>
                             <GiMadScientist onClick={() => setNigaYo8(nigaYo8 = !nigaYo8)} className={`tel4 ${nigaYo8 && 'active'}`} />
@@ -135,7 +130,7 @@ export default function Header() {
                     <GiFireDash onClick={() => setNigaYo9(nigaYo9 = !nigaYo9)} className={`an1 ${nigaYo9 && 'active'}`} />
                     {nigaYo9 && (
                         <div className='an2'>
-                            <div>Электрик. Экспертное мнение. Технологичный подход к сборке щитков и распределительных коробок.
+                            <div>Электрик.
                                 Штробление с применением системы циклонного фильтра, который минимизирует запыленность помещения.
                             </div>
                             <GiJupiter onClick={() => setNigaYo10(nigaYo10 = !nigaYo10)} className={`tel6 ${nigaYo10 && 'active'}`} />
@@ -150,17 +145,15 @@ export default function Header() {
                             )}
                         </div>
                     )}
-                    <div className='ju'>Andrey Julvern</div>
+                    <div className='ju'>Julvern</div>
                     <GiWaveSurfer onClick={() => setNigaYo11(nigaYo11 = !nigaYo11)} className={`ju1 ${nigaYo11 && 'active'}`} />
                     {nigaYo11 && (
-                        <div className='ju2'>Аренда помещений на Васильевском острове, центр,  3-я линия.
-                            Клиентоорентированность и широкий спектр предоставляемых площадей.
-                            Приемлемые цены. Вежливость и Надежность Сотрудничества.
+                        <div className='ju2'>yo
                             <GiFamilyHouse onClick={() => setNigaYo12(nigaYo12 = !nigaYo12)} className={`tel8 ${nigaYo12 && 'active'}`} />
                             {nigaYo12 && (
                                 <div className='tel9'>
-                                    <div>Андрей Вячеславович</div>
-                                    <div>+7 921 900 37 60</div>
+                                    <div>Julvern</div>
+                                    <div>inkognito</div>
                                     <div>WhatsApp</div>
                                     <div>Telegram</div>
                                     <div>Санкт-Петербург</div>
@@ -171,15 +164,12 @@ export default function Header() {
                     <div className='iv'>Ivn Swed</div>
                     <GiAstronautHelmet onClick={() => setNigaYo13(nigaYo13 = !nigaYo13)} className={`iv1 ${nigaYo13 && 'active'}`} />
                     {nigaYo13 && (
-                        <div className='iv2'>Специалист инженерных систем. Работы любой сложности.
-                            Быстро и Качественно. Сварка в любом положении, на сто процентов.
-                            Реализацияя самых сложных проектов.
-                            Соблюдение сроков. Чистота и Порядок.
+                        <div className='iv2'>Чистота и Порядок.
                             <GiDwarfFace onClick={() => setNigaYo14(nigaYo14 = !nigaYo14)} className={`tel10 ${nigaYo14 && 'active'}`} />
                             {nigaYo14 && (
                                 <div className='tel11'>
                                     <div>Иванч</div>
-                                    <tel>+7 931 999 23 06</tel>
+                                    <tel>inkognito</tel>
                                     <div>WhatsApp</div>
                                     <div>Telegram</div>
                                     <div> Санкт-Петербург </div>

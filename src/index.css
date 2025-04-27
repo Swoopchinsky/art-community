@@ -201,7 +201,6 @@ header .menu2.active {
 }
 
 header .menu3 {
-
     position: absolute;
     width: 1310px;
     height: 1730px;
@@ -913,6 +912,10 @@ zima .zimablock {
     font-size: 60px;
     padding-left: 240px;
     margin-top: 40px;
+    background-color: #a8eb89be;
+    margin-top: 12px;
+    border-radius: 30px;
+
 }
 
 vavilon .vavblock {
@@ -923,6 +926,103 @@ vavilon .vavblock {
     font-size: 55px;
     position: relative;
 }
+
+vavilon .vavbut1 {
+    font-size: 49px;
+    border-radius: 30px;
+    padding: 4px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+    margin-left: 40px;
+}
+
+vavilon .vavbut1:hover,
+vavilon .vavbut1.active {
+    transform: scale(1.3);
+}
+
+vavilon .vav1 {
+    background-color: #cdfd0c72;
+    background: url('./Img/sol1.jpg');
+    width: 1076px;
+    height: 700px;
+
+}
+
+vavilon .vavbut2 {
+    font-size: 49px;
+    border-radius: 30px;
+    padding: 4px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+    margin-left: 40px;
+}
+
+vavilon .vavbut2:hover,
+vavilon .vavbut2.active {
+    transform: scale(1.3);
+}
+
+vavilon .vav2 {
+    background: url('./Img/sol2.jpg');
+    width: 1076px;
+    height: 700px;
+}
+
+vavilon .vavbut3 {
+    font-size: 49px;
+    border-radius: 30px;
+    padding: 4px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+    margin-left: 40px;
+}
+
+vavilon .vavbut3:hover,
+vavilon .vavbut3.active {
+    transform: scale(1.3);
+}
+
+vavilon .vav3 {
+    background: url('./Img/sol3.jpg');
+    width: 1076px;
+    height: 566px;
+}
+
+vavilon .vavbut4 {
+    font-size: 49px;
+    border-radius: 30px;
+    padding: 4px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+    margin-left: 40px;
+}
+
+vavilon .vavbut4:hover,
+vavilon .vavbut4.active {
+    transform: scale(1.3);
+}
+
+vavilon .vav4 {
+    background: url('./Img/sol4.jpg');
+    position: relative;
+    z-index: 1100;
+    margin-left: 190px;
+    width: 738px;
+    height: 724px;
+    margin-top: -150px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+vavilon .vavtext {
+    color: rgb(246, 249, 247);
+    padding-left: 260px;
+    margin-top: 18px;
+}
+
+
 
 .zal {
     font-size: 60px;
