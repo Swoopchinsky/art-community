@@ -89,6 +89,13 @@ export default function Lego() {
     let [nigaLe81, setNigaLe81] = useState(false)
     let [nigaLe82, setNigaLe82] = useState(false)
 
+    let [nigaLe83, setNigaLe83] = useState(false)
+    let [nigaLe84, setNigaLe84] = useState(false)
+    let [nigaLe85, setNigaLe85] = useState(false)
+    let [nigaLe86, setNigaLe86] = useState(false)
+    let [nigaLe87, setNigaLe87] = useState(false)
+    let [nigaLe88, setNigaLe88] = useState(false)
+
 
 
 
@@ -597,6 +604,40 @@ export default function Lego() {
                                                                 </div>
                                                             )}
 
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            )}
+                                        </div>
+                                    )}
+                                </div>
+                            )}
+                            <button onClick={() => setNigaLe83(nigaLe83 = !nigaLe83)} className={`ep3 ${nigaLe83 && 'active'}`} >Episode 3</button>
+                            {nigaLe83 && (
+                                <div className='ep3cadr1'>
+                                    <p className='ep3text1'>Billy! Breakfast is on the teble.</p>
+                                    <button onClick={() => setNigaLe84(nigaLe84 = !nigaLe84)} className={`ep3but1 ${nigaLe84 && 'active'}`} >Scrooge</button>
+                                    {nigaLe84 && (
+                                        <div className='ep3cadr2'>
+                                            <p className='ep3text2'>Coming</p>
+                                            <button onClick={() => setNigaLe85(nigaLe85 = !nigaLe85)} className={`ep3but2 ${nigaLe85 && 'active'}`} >Billy</button>
+                                            {nigaLe85 && (
+                                                <div className='ep3cadr3'>
+                                                    <p className='ep3text3'>fried eggs</p>
+                                                    <button onClick={() => setNigaLe86(nigaLe86 = !nigaLe86)} className={`ep3but3 ${nigaLe86 && 'active'}`} >delicious</button>
+                                                    {nigaLe86 && (
+                                                        <div className='ep3cadr4'>
+                                                            <p className='ep3text4'>Look what i'll show you!</p>
+                                                            <button onClick={() => setNigaLe87(nigaLe87 = !nigaLe87)} className={`ep3but4 ${nigaLe87 && 'active'}`} >show</button>
+                                                            {nigaLe87 && (
+                                                                <div className='ep3cadr5'>
+                                                                    <p className='ep3text5'>safe chest</p>
+                                                                    <button onClick={() => setNigaLe88(nigaLe88 = !nigaLe88)} className={`ep3but5 ${nigaLe88 && 'active'}`} >open</button>
+                                                                    {nigaLe88 && (
+                                                                        <div className='ep3cadr6'></div>
+                                                                    )}
+                                                                </div>
+                                                            )}
                                                         </div>
                                                     )}
                                                 </div>
