@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/art-community/static/css/main.f0d98c3e.css",
-    "main.js": "/art-community/static/js/main.b23f9ab7.js",
+    "main.css": "/art-community/static/css/main.449d8a2f.css",
+    "main.js": "/art-community/static/js/main.62b9d109.js",
     "static/media/fon01.jpg": "/art-community/static/media/fon01.dfc464fb80a6a0c3e6fe.jpg",
     "static/media/sova.jpg": "/art-community/static/media/sova.e33c69d3b4b241d53276.jpg",
+    "static/media/sok111.jpg": "/art-community/static/media/sok111.375d9a87af9720b65c65.jpg",
     "static/media/obr2.jpg": "/art-community/static/media/obr2.1ea3d76f6f8fe541def8.jpg",
     "static/media/cadr2.jpg": "/art-community/static/media/cadr2.f4968d31ecf957a24a80.jpg",
     "static/media/cadr6.jpg": "/art-community/static/media/cadr6.5fc36ce2c525c46ec832.jpg",
@@ -32,6 +33,7 @@
     "static/media/cadr16.jpg": "/art-community/static/media/cadr16.b1a4ea3f76aabcb49433.jpg",
     "static/media/cadr22ep2.jpg": "/art-community/static/media/cadr22ep2.ebaa7e059866f620aef5.jpg",
     "static/media/cadr17.jpg": "/art-community/static/media/cadr17.0191b14aed424409165e.jpg",
+    "static/media/sok11.jpg": "/art-community/static/media/sok11.31282135857f55eaa746.jpg",
     "static/media/sol3.jpg": "/art-community/static/media/sol3.a7c417a860395e8f5689.jpg",
     "static/media/cadr14ep2.jpg": "/art-community/static/media/cadr14ep2.46516ae53f6f77f4ee71.jpg",
     "static/media/cadr15ep2.jpg": "/art-community/static/media/cadr15ep2.828af0486f5f71ecb62a.jpg",
@@ -92,6 +94,7 @@
     "static/media/cadr31ep2.jpg": "/art-community/static/media/cadr31ep2.35804829bc40fcac2776.jpg",
     "static/media/ep3cadr6.jpg": "/art-community/static/media/ep3cadr6.eaa81c4bf1c082bc3715.jpg",
     "static/media/cadr26ep2.jpg": "/art-community/static/media/cadr26ep2.b5d55ea96a49c34d120d.jpg",
+    "static/media/ep3cadr7.jpg": "/art-community/static/media/ep3cadr7.2ec5a94631e237cfef6b.jpg",
     "static/media/fon6.jpg": "/art-community/static/media/fon6.7b8d1d223f215fd1aafd.jpg",
     "static/media/cadr38ep2.jpg": "/art-community/static/media/cadr38ep2.a35cc6879d2be4d87ab0.jpg",
     "static/media/ep3cadr3.jpg": "/art-community/static/media/ep3cadr3.2c8892d3013f9a4eba52.jpg",
@@ -102,14 +105,15 @@
     "static/media/fon3.jpg": "/art-community/static/media/fon3.58459aee911421f54a65.jpg",
     "static/media/sol2.jpg": "/art-community/static/media/sol2.b280120ff6e0bb80df74.jpg",
     "static/media/fon2.jpg": "/art-community/static/media/fon2.b602cf2855cb01d8d2ea.jpg",
+    "static/media/sok1.jpg": "/art-community/static/media/sok1.e23264ff9e0ff79ee1fe.jpg",
     "static/media/obr3.jpg": "/art-community/static/media/obr3.f89e3df3637e4bd67b57.jpg",
     "static/media/obr1.jpg": "/art-community/static/media/obr1.e428fb6f2e7dba2a3237.jpg",
     "index.html": "/art-community/index.html",
-    "main.f0d98c3e.css.map": "/art-community/static/css/main.f0d98c3e.css.map",
-    "main.b23f9ab7.js.map": "/art-community/static/js/main.b23f9ab7.js.map"
+    "main.449d8a2f.css.map": "/art-community/static/css/main.449d8a2f.css.map",
+    "main.62b9d109.js.map": "/art-community/static/js/main.62b9d109.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0d98c3e.css",
-    "static/js/main.b23f9ab7.js"
+    "static/css/main.449d8a2f.css",
+    "static/js/main.62b9d109.js"
   ]
 }
