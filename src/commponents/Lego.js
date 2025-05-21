@@ -100,7 +100,12 @@ export default function Lego() {
     let [nigaSoo1, setNigaSoo1] = useState(false)
     let [nigaSoo2, setNigaSoo2] = useState(false)
     let [nigaSoo3, setNigaSoo3] = useState(false)
-
+    let [nigaSoo4, setNigaSoo4] = useState(false)
+    let [nigaSoo5, setNigaSoo5] = useState(false)
+    let [nigaSoo6, setNigaSoo6] = useState(false)
+    let [nigaSoo7, setNigaSoo7] = useState(false)
+    let [nigaSoo8, setnigaSoo8] = useState(false)
+    let [nigaSoo9, setNigaSoo9] = useState(false)
 
 
 
@@ -651,7 +656,7 @@ export default function Lego() {
                                                                                                 <button onClick={() => setNigaSoo3(nigaSoo3 = !nigaSoo3)} className={`sok111but1 ${nigaSoo3 && 'active'}`}>Details</button>
                                                                                                 {nigaSoo3 && (
                                                                                                     <p className='sok111p'>
-                                                                                                        Размер: 70x100 см.<br />
+                                                                                                        Размер: 70x100 см <br />
                                                                                                         Материал: Масло.Картон <br />
                                                                                                         Цена: 3800$
                                                                                                     </p>
@@ -660,6 +665,45 @@ export default function Lego() {
                                                                                         )}
                                                                                     </div>
                                                                                 )}
+
+                                                                                <button onClick={() => setNigaSoo4(nigaSoo4 = !nigaSoo4)} className={`sok2 ${nigaSoo4 && 'active'}`}></button>
+                                                                                {nigaSoo4 && (
+                                                                                    <div className='sok22'>
+                                                                                        <button onClick={() => setNigaSoo5(nigaSoo5 = !nigaSoo5)} className={`sok22but1 ${nigaSoo5 && 'active'}`}>Information</button>
+                                                                                        {nigaSoo5 && (
+                                                                                            <div className='sok222'>
+                                                                                                <button onClick={() => setNigaSoo6(nigaSoo6 = !nigaSoo6)} className={`sok222but1 ${nigaSoo6 && 'active'}`} >Details</button>
+                                                                                                {nigaSoo6 && (
+                                                                                                    <p className='sok222p'>
+                                                                                                        Размер: 101x150 см <br />
+                                                                                                        Материал: Масло.Карток <br />
+                                                                                                        Цена: 5400$
+                                                                                                    </p>
+                                                                                                )}
+                                                                                            </div>
+                                                                                        )}
+                                                                                    </div>
+                                                                                )}
+
+                                                                                <button onClick={() => setNigaSoo7(nigaSoo7 = !nigaSoo7)} className={`sok3 ${nigaSoo7 && 'active'}`}></button>
+                                                                                {nigaSoo7 && (
+                                                                                    <div className='sok33'>
+                                                                                        <button onClick={() => setnigaSoo8(nigaSoo8 = !nigaSoo8)} className={`sok33but1 ${nigaSoo8 && 'active'}`}>Information</button>
+                                                                                        {nigaSoo8 && (
+                                                                                            <div className='sok333'>
+                                                                                                <button onClick={() => setNigaSoo9(nigaSoo9 = !nigaSoo9)} className={`sok333but1 ${nigaSoo9 && 'active'}`}>Details</button>
+                                                                                                {nigaSoo9 && (
+                                                                                                    <p className='sok333p'>
+                                                                                                        Размер: 60x130 см <br />
+                                                                                                        Материал: Масло.Картон <br />
+                                                                                                        Цена: 6200$
+                                                                                                    </p>
+                                                                                                )}
+                                                                                            </div>
+                                                                                        )}
+                                                                                    </div>
+                                                                                )}
+
                                                                             </div>
                                                                             <button onClick={() => setNigaLe89(nigaLe89 = !nigaLe89)} className={`ep3but6 ${nigaLe89 && 'active'}`}>listen</button>
                                                                             {nigaLe89 && (
