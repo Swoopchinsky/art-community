@@ -4832,13 +4832,13 @@ lego .sok1.active {
 
 
 lego .sok11 {
-    font-size: 60px;
     background: url('./Comics/ep3/Soondool/sok11.jpg');
     width: 800px;
-    height: 1200px;
-    margin-left: 600px;
-    margin-top: 80px;
+    height: 1400px;
+    margin-top: -10px;
     border-radius: 33px;
+    position: absolute;
+    z-index: 1005;
 }
 
 lego .sok11but1 {
@@ -5109,6 +5109,63 @@ lego .sok333p {
     margin-left: 61px;
     margin-top: 101px;
     color: rgba(166, 11, 47, 0.46)
+}
+
+lego .brokbut1 {
+    font-size: 32px;
+    width: 160px;
+    height: 300px;
+    margin-top: 310px;
+    cursor: pointer;
+    margin-left: 970px;
+    border-radius: 36px;
+    transition: color, transform 500ms ease;
+    background: url('./Comics/ep3/Soondool/telefonbrok.jpg');
+    position: absolute;
+
+}
+
+lego .brokbut1:hover,
+lego .brokbut1.active {
+    transform: scale(1.18);
+}
+
+lego .brokfoto {
+    width: 1400px;
+    height: 820px;
+    background: url('./Comics/ep3/Soondool/brokfoto.jpg');
+    position: absolute;
+    border-radius: 38px;
+    margin-top: 610px;
+}
+
+lego .brokbut2 {
+    font-size: 43px;
+    border-radius: 30px;
+    padding: 7px;
+    cursor: pointer;
+    margin-left: 898px;
+    margin-top: 388px;
+    background-color: rgba(134, 220, 180, 0.26);
+    border: solid;
+    border-width: 4px;
+    transition: transform 500ms ease;
+    border-color: rgba(734, 720, 180, 0.86);
+}
+
+lego .brokbut2:hover,
+lego .brokbut2.active {
+    transform: scale(1.18);
+}
+
+lego .broktext {
+    font-size: 46px;
+    padding: 18px;
+    border-radius: 50px;
+    color: rgba(918, 472, 110, 0.91);
+    background-color: rgba(4, 42, 10, 0.69);
+    width: 740px;
+    margin-top: -400px;
 }
 
 

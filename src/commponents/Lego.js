@@ -106,6 +106,8 @@ export default function Lego() {
     let [nigaSoo7, setNigaSoo7] = useState(false)
     let [nigaSoo8, setnigaSoo8] = useState(false)
     let [nigaSoo9, setNigaSoo9] = useState(false)
+    let [nigaSoo10, setNigaSoo10] = useState(false)
+    let [nigaSoo11, setNigaSoo11] = useState(false)
 
 
 
@@ -701,6 +703,25 @@ export default function Lego() {
                                                                                                 )}
                                                                                             </div>
                                                                                         )}
+                                                                                    </div>
+                                                                                )}
+                                                                                <button onClick={() => setNigaSoo10(nigaSoo10 = !nigaSoo10)} className={`brokbut1 ${nigaSoo10 && 'active'}`}></button>
+                                                                                {nigaSoo10 && (
+                                                                                    <div className='brokfoto'>
+                                                                                        <button onClick={() => setNigaSoo11(nigaSoo11 = !nigaSoo11)} className={`brokbut2 ${nigaSoo11 && 'active'}`}>Sekretar'</button>
+                                                                                        {nigaSoo11 && (
+                                                                                            <div className='broktext'>
+                                                                                                <p>
+                                                                                                    VK: Garri Looking <br />
+                                                                                                    Telefon: +7 921 593 63 24 <br />
+                                                                                                    Sekretar' <br />
+                                                                                                    Sankt-Peterburg <br />
+                                                                                                    Ознакомиться с Экспонатами можно по предварительной договоренности по адресу:
+                                                                                                    Гродненский переулок, мастерская Дона Дэ.
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        )}
+
                                                                                     </div>
                                                                                 )}
 
