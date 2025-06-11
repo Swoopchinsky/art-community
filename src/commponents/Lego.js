@@ -109,6 +109,12 @@ export default function Lego() {
     let [nigaSoo10, setNigaSoo10] = useState(false)
     let [nigaSoo11, setNigaSoo11] = useState(false)
 
+    let [nigaLe90, setNigaLe90] = useState(false)
+    let [nigaLe91, setNigaLe91] = useState(false)
+    let [nigaLe92, setNigaLe92] = useState(false)
+    let [nigaLe93, setNigaLe93] = useState(false)
+
+
 
 
 
@@ -649,7 +655,7 @@ export default function Lego() {
                                                                         <div className='ep3cadr6'>
                                                                             <p className='ep3text6'>Treasures</p>
                                                                             <div className='ep3soondool'>
-                                                                                <button onClick={() => setNigaSoo1(nigaSoo1 = !nigaSoo1)} className={`sok1 ${nigaSoo1 && 'active'}`}></button>
+                                                                                <button onClick={() => setNigaSoo1(nigaSoo1 = !nigaSoo1)} className={`sok1 ${nigaSoo1 && 'active'}`}></button >
                                                                                 {nigaSoo1 && (
                                                                                     <div className='sok11'>
                                                                                         <button onClick={() => setNigaSoo2(nigaSoo2 = !nigaSoo2)} className={`sok11but1 ${nigaSoo2 && 'active'}`}>Information</button>
@@ -713,11 +719,7 @@ export default function Lego() {
                                                                                             <div className='broktext'>
                                                                                                 <p>
                                                                                                     VK: Garri Looking <br />
-                                                                                                    Telefon: +7 921 593 63 24 <br />
-                                                                                                    Sekretar' <br />
                                                                                                     Sankt-Peterburg <br />
-                                                                                                    Ознакомиться с Экспонатами можно по предварительной договоренности по адресу:
-                                                                                                    Гродненский переулок, мастерская Дона Дэ.
                                                                                                 </p>
                                                                                             </div>
                                                                                         )}
@@ -726,9 +728,33 @@ export default function Lego() {
                                                                                 )}
 
                                                                             </div>
-                                                                            <button onClick={() => setNigaLe89(nigaLe89 = !nigaLe89)} className={`ep3but6 ${nigaLe89 && 'active'}`}>listen</button>
+                                                                            <button onClick={() => setNigaLe89(nigaLe89 = !nigaLe89)} className={`ep3but6 ${nigaLe89 && 'active'}`}>check in out </button>
                                                                             {nigaLe89 && (
-                                                                                <div className='ep3cadr7'></div>
+                                                                                <div className='ep3cadr7'>
+                                                                                    <p className='ep3text7'>incredidle</p>
+                                                                                    <button onClick={() => setNigaLe90(nigaLe90 = !nigaLe90)} className={`ep3but7 ${nigaLe90 && 'active'}`} >Dangere Billy </button>
+                                                                                    {nigaLe90 && (
+                                                                                        <div className='ep3cadr8'>
+                                                                                            <p className='ep3text8'>anomaly time</p>
+                                                                                            <button onClick={() => setNigaLe91(nigaLe91 = !nigaLe91)} className={`ep3but8 ${nigaLe91 && 'active'}`}>surge</button>
+                                                                                            {nigaLe91 && (
+                                                                                                <div className='ep3cadr9'>
+                                                                                                    <p className='ep3text9'>perfect </p>
+                                                                                                    <button onClick={() => setNigaLe92(nigaLe92 = !nigaLe92)} className={`ep3but9 ${nigaLe92 && 'active'}`}>how did you know</button>
+                                                                                                    {nigaLe92 && (
+                                                                                                        <div className='ep3cadr10'>
+                                                                                                            <p className='ep3text10'>have a nice day</p>
+                                                                                                            <button onClick={() => setNigaLe93(nigaLe93 = !nigaLe93)} className={`ep3but10 ${nigaLe93 && 'active'}`} >Karambch</button>
+                                                                                                            {nigaLe93 && (
+                                                                                                                <div className='ep3cadr11'></div>
+                                                                                                            )}
+                                                                                                        </div>
+                                                                                                    )}
+                                                                                                </div>
+                                                                                            )}
+                                                                                        </div>
+                                                                                    )}
+                                                                                </div>
                                                                             )}
 
 
