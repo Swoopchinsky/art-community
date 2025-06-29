@@ -24,16 +24,18 @@ header {
 }
 
 header .logo {
-    font-weight: 400;
+    font-weight: 450;
     background-color: #98ea467f;
-    font-size: 40px;
-    margin-left: 310px;
-    padding: 2x;
+    font-size: 44px;
+    margin-left: 610px;
+    margin-top: 30px;
+    padding: 12px;
     border-radius: 24px;
+
 }
 
 header .presentation {
-    margin: 50px 0;
+    margin: 10px 0;
     background: url('./Img/fon01.jpg') no-repeat;
     border-radius: 30px;
     width: 100%;
@@ -141,19 +143,22 @@ header .pole2 {
 }
 
 header .menu {
-    font-size: 66px;
-    color: #212554;
+    font-size: 88px;
+    color: #cff96c;
+    background-color: #6a4143a5;
     cursor: pointer;
     transition: color, transform 500ms ease;
     margin-left: 50px;
     border-style: solid;
-    border-radius: 22px;
+    border-color: yellow;
+    border-radius: 44px;
 }
 
 header .menu:hover,
 header .menu.active {
     color: #787ac9;
     background-color: #13180c;
+    border-color: rgba(218, 215, 236, 0.865);
     transform: scale(1.5);
     -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
     -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
@@ -288,22 +293,22 @@ header .menu9 {
 }
 
 header .pers {
-    font-size: 66px;
-    color: #230f0b;
+    font-size: 88px;
+    color: #a3f34e8c;
+    background-color: #424709a2;
     cursor: pointer;
     transition: color, transform 500ms ease;
     margin-left: 90px;
-    border-radius: 22px;
+    border-radius: 44px;
     border-style: solid;
-
-
+    border-color: #f5f587df;
 }
 
 header .pers:hover,
 header .pers.active {
-    color: #eefced;
-    background-color: #230f0b;
-    transform: scale(1.5);
+    color: #4470158c;
+    background-color: #f7f0d4eb;
+    transform: scale(1.3);
     -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
     -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
     box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
@@ -327,7 +332,11 @@ header .pers1 {
 
 header .pers2 {
     font-size: 56px;
-    color: #605501;
+    color: #fee105;
+    background-color: #3b723b75;
+    border-radius: 28px;
+
+    padding: 8px;
     position: absolute;
     left: 250px;
 }
@@ -788,12 +797,14 @@ header .tel11 {
 }
 
 header .goo {
-    font-size: 66px;
-    color: #0b1301;
+    font-size: 88px;
+    color: #e4f803e7;
+    background-color: rgba(62, 65, 45, 0.354);
     cursor: pointer;
     transition: color, transform 500ms ease;
     margin-left: 50px;
     border-style: solid;
+    border-color: #faf0ec;
     border-radius: 22px;
 
 }
@@ -807,6 +818,8 @@ header .goo.active {
     -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
     -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
     box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    position: relative;
+    z-index: 1005;
 }
 
 header .goo1 {
@@ -823,7 +836,7 @@ header .goo1 {
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     border-radius: 30px;
-    z-index: 1002;
+    z-index: 1006;
 }
 
 .info {
@@ -1143,12 +1156,11 @@ lego .but1ep1.active {
 
 lego .cadr2 {
     background: url('./Comics/ep1/cadr2.jpg');
-    margin-left: 346px;
-    position: relative;
+    position: absolute;
     width: 1400px;
     height: 826px;
     z-index: 1005;
-    margin-left: 0px;
+    margin-top: -102px;
     border-radius: 40px;
 }
 
@@ -1190,6 +1202,7 @@ lego .cadr3 {
     height: 808px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .but3ep1 {
@@ -1222,6 +1235,7 @@ lego .cadr4 {
     height: 750px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text4 {
@@ -1263,6 +1277,7 @@ lego .cadr5 {
     height: 744px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text5 {
@@ -1304,6 +1319,7 @@ lego .cadr6 {
     height: 744px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text6 {
@@ -1345,6 +1361,7 @@ lego .cadr7 {
     height: 744px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text7 {
@@ -1386,6 +1403,7 @@ lego .cadr8 {
     height: 744px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text8 {
@@ -1427,6 +1445,7 @@ lego .cadr9 {
     height: 744px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text9 {
@@ -1468,6 +1487,7 @@ lego .cadr10 {
     height: 744px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text10 {
@@ -1509,6 +1529,7 @@ lego .cadr11 {
     height: 744px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text11 {
@@ -1550,6 +1571,7 @@ lego .cadr12 {
     height: 744px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text12 {
@@ -1591,6 +1613,7 @@ lego .cadr13 {
     height: 1400px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text13 {
@@ -1676,6 +1699,7 @@ lego .cadr15 {
     margin-left: -700px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text15 {
@@ -1717,6 +1741,7 @@ lego .cadr16 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text16 {
@@ -1758,6 +1783,7 @@ lego .cadr17 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text17 {
@@ -1799,6 +1825,7 @@ lego .cadr18 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text18 {
@@ -1840,6 +1867,7 @@ lego .cadr19 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text19 {
@@ -1881,6 +1909,7 @@ lego .cadr20 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text20 {
@@ -1922,6 +1951,7 @@ lego .cadr21 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text21 {
@@ -1963,6 +1993,7 @@ lego .cadr22 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text22 {
@@ -2004,6 +2035,7 @@ lego .cadr23 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text23 {
@@ -2045,6 +2077,7 @@ lego .cadr24 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text24 {
@@ -2086,6 +2119,7 @@ lego .cadr25 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text25 {
@@ -2127,6 +2161,7 @@ lego .cadr26 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .text26 {
@@ -2168,6 +2203,7 @@ lego .cadr27 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -102px;
 }
 
 lego .but27ep1 {
@@ -2232,8 +2268,6 @@ lego .ep2cadr1 {
     background: url('./Comics/ep2/cadr1ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
-    position: relative;
     z-index: 1007;
 }
 
@@ -2276,9 +2310,8 @@ lego .ep2cadr2 {
     background: url('./Comics/ep2/cadr2ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
-    position: relative;
-    box-sizing: border-box;
+    position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2text2 {
@@ -2320,9 +2353,8 @@ lego .ep2cadr3 {
     background: url('./Comics/ep2/cadr3ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
-    position: relative;
-    box-sizing: border-box;
+    position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2text3 {
@@ -2364,9 +2396,8 @@ lego .ep2cadr4 {
     background: url('./Comics/ep2/cadr4ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
-    position: relative;
-    box-sizing: border-box;
+    position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2text4 {
@@ -2408,9 +2439,8 @@ lego .ep2cadr5 {
     background: url('./Comics/ep2/cadr5ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
-    position: relative;
-    box-sizing: border-box;
+    position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2text5 {
@@ -2452,9 +2482,8 @@ lego .ep2cadr6 {
     background: url('./Comics/ep2/cadr6ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text6 {
@@ -2496,9 +2525,8 @@ lego .ep2cadr7 {
     background: url('./Comics/ep2/cadr7ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text7 {
@@ -2540,9 +2568,8 @@ lego .ep2cadr8 {
     background: url('./Comics/ep2/cadr8ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text8 {
@@ -2584,9 +2611,8 @@ lego .ep2cadr9 {
     background: url('./Comics/ep2/cadr9ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text9 {
@@ -2628,9 +2654,8 @@ lego .ep2cadr10 {
     background: url('./Comics/ep2/cadr10ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text10 {
@@ -2672,9 +2697,8 @@ lego .ep2cadr11 {
     background: url('./Comics/ep2/cadr11ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text11 {
@@ -2716,9 +2740,8 @@ lego .ep2cadr12 {
     background: url('./Comics/ep2/cadr12ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text12 {
@@ -2760,9 +2783,8 @@ lego .ep2cadr13 {
     background: url('./Comics/ep2/cadr13ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text13 {
@@ -2804,9 +2826,8 @@ lego .ep2cadr14 {
     background: url('./Comics/ep2/cadr14ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text14 {
@@ -2848,9 +2869,8 @@ lego .ep2cadr15 {
     background: url('./Comics/ep2/cadr15ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text15 {
@@ -2892,9 +2912,8 @@ lego .ep2cadr16 {
     background: url('./Comics/ep2/cadr16ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text16 {
@@ -2936,9 +2955,8 @@ lego .ep2cadr17 {
     background: url('./Comics/ep2/cadr17ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text17 {
@@ -2980,9 +2998,8 @@ lego .ep2cadr18 {
     background: url('./Comics/ep2/cadr18ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text18 {
@@ -3024,9 +3041,8 @@ lego .ep2cadr19 {
     background: url('./Comics/ep2/cadr19ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text19 {
@@ -3068,9 +3084,8 @@ lego .ep2cadr20 {
     background: url('./Comics/ep2/cadr20ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text20 {
@@ -3112,9 +3127,8 @@ lego .ep2cadr21 {
     background: url('./Comics/ep2/cadr21ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text21 {
@@ -3156,9 +3170,8 @@ lego .ep2cadr22 {
     background: url('./Comics/ep2/cadr22ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text22 {
@@ -3200,9 +3213,8 @@ lego .ep2cadr23 {
     background: url('./Comics/ep2/cadr23ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text23 {
@@ -3244,9 +3256,8 @@ lego .ep2cadr24 {
     background: url('./Comics/ep2/cadr24ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text24 {
@@ -3288,9 +3299,8 @@ lego .ep2cadr25 {
     background: url('./Comics/ep2/cadr25ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text25 {
@@ -3332,9 +3342,8 @@ lego .ep2cadr26 {
     background: url('./Comics/ep2/cadr26ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text26 {
@@ -3376,9 +3385,8 @@ lego .ep2cadr27 {
     background: url('./Comics/ep2/cadr27ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text27 {
@@ -3420,9 +3428,8 @@ lego .ep2cadr28 {
     background: url('./Comics/ep2/cadr28ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text28 {
@@ -3464,9 +3471,8 @@ lego .ep2cadr29 {
     background: url('./Comics/ep2/cadr29ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 
 }
 
@@ -3509,9 +3515,8 @@ lego .ep2cadr30 {
     background: url('./Comics/ep2/cadr30ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 
 }
 
@@ -3554,9 +3559,8 @@ lego .ep2cadr31 {
     background: url('./Comics/ep2/cadr31ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 
 }
 
@@ -3599,9 +3603,8 @@ lego .ep2cadr32 {
     background: url('./Comics/ep2/cadr32ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 
 }
 
@@ -3644,9 +3647,8 @@ lego .ep2cadr33 {
     background: url('./Comics/ep2/cadr33ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 
 }
 
@@ -3689,9 +3691,8 @@ lego .ep2cadr34 {
     background: url('./Comics/ep2/cadr34ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 
 }
 
@@ -3734,9 +3735,8 @@ lego .ep2cadr35 {
     background: url('./Comics/ep2/cadr35ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 }
 
 lego .ep2text35 {
@@ -3778,9 +3778,8 @@ lego .ep2cadr36 {
     background: url('./Comics/ep2/cadr36ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 
 }
 
@@ -3823,9 +3822,8 @@ lego .ep2cadr37 {
     background: url('./Comics/ep2/cadr37ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 
 }
 
@@ -3868,9 +3866,8 @@ lego .ep2cadr38 {
     background: url('./Comics/ep2/cadr38ep2.jpg');
     height: 640px;
     border-radius: 30px;
-    border-style: solid;
     position: absolute;
-    box-sizing: border-box;
+    margin-top: -82px;
 
 }
 
@@ -3914,6 +3911,7 @@ lego .ep2cadr39 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-left: -126px;
 }
 
 lego .ep2text39 {
@@ -3956,6 +3954,7 @@ lego .ep2cadr40 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2text40 {
@@ -3998,6 +3997,7 @@ lego .ep2cadr41 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2text41 {
@@ -4040,6 +4040,7 @@ lego .ep2cadr42 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2text42 {
@@ -4082,6 +4083,7 @@ lego .ep2cadr43 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2text43 {
@@ -4124,6 +4126,7 @@ lego .ep2cadr44 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2text44 {
@@ -4166,6 +4169,7 @@ lego .ep2cadr45 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2text45 {
@@ -4208,6 +4212,7 @@ lego .ep2cadr46 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2text46 {
@@ -4250,6 +4255,7 @@ lego .ep2cadr47 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2text47 {
@@ -4292,6 +4298,7 @@ lego .ep2cadr48 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2text48 {
@@ -4334,6 +4341,7 @@ lego .ep2cadr49 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2text49 {
@@ -4376,6 +4384,7 @@ lego .ep2cadr50 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2text50 {
@@ -4418,6 +4427,7 @@ lego .ep2cadr51 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2text51 {
@@ -4460,6 +4470,7 @@ lego .ep2cadr52 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2text52 {
@@ -4502,6 +4513,7 @@ lego .ep2cadr53 {
     height: 640px;
     border-radius: 30px;
     position: absolute;
+    margin-top: -82px;
 }
 
 lego .ep2but53 {
