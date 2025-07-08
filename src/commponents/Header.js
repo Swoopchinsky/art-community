@@ -58,7 +58,7 @@ export default function Header() {
     return (
         <header>
             <div>
-                <span className='logo'> Il        Iga         Anoosh      Ivn</span>
+                <span className='logo'> Il Yooh.    Igarjn Looking.  Anoosh Po.     Ivn Sila.</span>
             </div>
             <BsFillPersonLinesFill onClick={() => setNigaYo(nigaYo = !nigaYo)} className={`pers ${nigaYo && 'active'}`} />
             {nigaYo && (
@@ -71,7 +71,7 @@ export default function Header() {
                             JavaScript. <br />
                             React JS. <br />
                             GitHub Pages. <br />
-                            Кнопочки, Картинки. Поля <br />
+                            +7 921 593 63 24 <br />
                             UX, CSS, HTML.
 
                             <BsTelephone onClick={() => setNigaYo4(nigaYo4 = !nigaYo4)} className={`tel ${nigaYo4 && 'active'}`} />

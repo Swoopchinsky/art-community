@@ -155,7 +155,7 @@ export default function Lego() {
             <div className='lego'>
                 <div>
                     lego club
-                    <button onClick={() => setNigaLe(nigaLe = !nigaLe)} className={`le ${nigaLe && 'active'}`} >comics</button>
+                    <button onClick={() => setNigaLe(nigaLe = !nigaLe)} className={`le ${nigaLe && 'active'}`} >comix</button>
                     {nigaLe && (
                         <div className='episode'>
                             <button onClick={() => setNigaLe1(nigaLe1 = !nigaLe1)} className={`ep1 ${nigaLe1 && 'active'}`} >Episode 1</button>
