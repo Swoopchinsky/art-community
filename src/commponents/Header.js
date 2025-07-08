@@ -78,7 +78,7 @@ export default function Header() {
                             {nigaYo4 && (
                                 <div className='tel1'>
                                     <div>Игарян</div>
-                                    <address>8 921 593 63 24</address>
+                                    <address>+7 921 593 63 24</address>
                                     <div>WhatsApp</div>
                                     <div>Telegram</div>
                                     <div>Санкт-Петерберг</div>
@@ -201,7 +201,7 @@ export default function Header() {
                                             <GiBeastEye onClick={() => setNigaYo19(nigaYo19 = !nigaYo19)} className={`menu7 ${nigaYo19 && 'active'}`} />
                                             {nigaYo19 && (
                                                 <div className='menu8'>
-                                                    10000 $
+                                                    10 000 $
                                                 </div>
                                             )}
                                         </div>
@@ -210,7 +210,7 @@ export default function Header() {
                                             <div>Масло Холст</div>
                                             <div>Автор Garri Looking</div>
                                             <div>Год: 2018</div>
-                                            <div>Цена: 10000 $</div>
+                                            <div>Цена: 10 000 $</div>
                                         </div>
                                     </div>
                                 )}
