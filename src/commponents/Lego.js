@@ -149,6 +149,8 @@ export default function Lego() {
     let [nigaLe127, setNigaLe127] = useState(false)
     let [nigaLe128, setNigaLe128] = useState(false)
 
+    let [nigaLe129, setNigaLe129] = useState(false)
+
 
     return (
         <lego>
@@ -158,7 +160,7 @@ export default function Lego() {
                     <button onClick={() => setNigaLe(nigaLe = !nigaLe)} className={`le ${nigaLe && 'active'}`} >comix</button>
                     {nigaLe && (
                         <div className='episode'>
-                            <button onClick={() => setNigaLe1(nigaLe1 = !nigaLe1)} className={`ep1 ${nigaLe1 && 'active'}`} >Episode 1</button>
+                            <button onClick={() => setNigaLe1(nigaLe1 = !nigaLe1)} className={`ep1 ${nigaLe1 && 'active'}`} >Episod  1</button>
                             {nigaLe1 && (
                                 <div className='cadr1'>
                                     <div className='text1'>Marty McFly
@@ -329,7 +331,7 @@ export default function Lego() {
                                     )}
                                 </div>
                             )}
-                            <button onClick={() => setNigaLe29(nigaLe29 = !nigaLe29)} className={`ep2 ${nigaLe29 && 'active'}`} >Episode 2</button>
+                            <button onClick={() => setNigaLe29(nigaLe29 = !nigaLe29)} className={`ep2 ${nigaLe29 && 'active'}`} >Episod 2</button>
                             {nigaLe29 && (
                                 <div className='ep2cadr1'>
                                     <p className='ep2text1'>
@@ -662,7 +664,7 @@ export default function Lego() {
                                     )}
                                 </div>
                             )}
-                            <button onClick={() => setNigaLe83(nigaLe83 = !nigaLe83)} className={`ep3 ${nigaLe83 && 'active'}`} >Episode 3</button>
+                            <button onClick={() => setNigaLe83(nigaLe83 = !nigaLe83)} className={`ep3 ${nigaLe83 && 'active'}`} >Episod 3</button>
                             {nigaLe83 && (
                                 <div className='ep3cadr1'>
                                     <p className='ep3text1'>Billy! Breakfast is on the teble.</p>
@@ -1020,6 +1022,12 @@ export default function Lego() {
                                             )}
                                         </div>
                                     )}
+                                </div>
+                            )}
+                            <button onClick={() => setNigaLe129(nigaLe129 = !nigaLe129)} className={`ep4 ${nigaLe129 && 'active'}`} >Episod 4</button>
+                            {nigaLe129 && (
+                                <div className='ep4cadr1'>
+                                    <p className='ep4text1'>in development</p>
                                 </div>
                             )}
                         </div>

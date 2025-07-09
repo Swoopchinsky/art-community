@@ -53,12 +53,14 @@ header .presentation {
 header .presentation::after {
     content: 'abstraction';
     position: absolute;
-    top: 160px;
-    left: 300px;
-    width: 600px;
+    top: 1310px;
+    left: 400px;
     font-size: 44px;
     font-weight: 600px;
-    color: #385934;
+    color: #a6f09e;
+    background-color: #3489238a;
+    padding: 16px;
+    border-radius: 40px;
 }
 
 header .but1 {
@@ -102,14 +104,14 @@ header .pole1 {
 header .presentation::before {
     content: 'perspective';
     position: absolute;
-    top: 1308px;
-    left: 680px;
+    top: 1306px;
+    left: 673px;
     font-size: 48px;
     font-weight: 600px;
     color: #72ef509e;
     background-color: #0258056d;
-    padding: 7px;
-    border-radius: 32px;
+    padding: 16px;
+    border-radius: 40px;
 }
 
 header .but2 {
@@ -920,6 +922,9 @@ info .infoblock::before {
     font-size: 60px;
     padding-left: 100px;
     margin-top: 40px;
+    background-color: #3997471f;
+    color: #305809d3;
+    border-radius: 44px;
 }
 
 zima .zimablock {
@@ -929,7 +934,41 @@ zima .zimablock {
     height: 490px;
     font-size: 55px;
     position: relative;
+
 }
+
+zima .zimaBut {
+    position: absolute;
+    font-size: 44px;
+    margin-top: -76px;
+    margin-left: 1080px;
+    padding: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #529f068e;
+    background-color: #26532648;
+    color: #399747;
+}
+
+zima .zimaBut:hover,
+zima .zimaBut.active {
+    transform: scale(1.2);
+    color: #f0f3fa;
+    background-color: #050c0fd8;
+}
+
+zima .zimacadr1 {
+    background: url('./Img/fon04.jpg');
+    width: 1400px;
+    height: 1866px;
+    position: relative;
+    z-index: 1008;
+}
+
+
 
 .vav {
     font-size: 60px;
@@ -6894,6 +6933,40 @@ lego .ep3text46 {
     margin-left: 566px;
     color: #590600;
     border-radius: 30px;
+}
+
+lego .ep4 {
+    background-color: transparent;
+    font-size: 48px;
+    margin-left: 48px;
+    border-radius: 30px;
+    padding: 6px;
+    border-style: solid;
+    transition: color, transform 800ms ease;
+    cursor: pointer;
+}
+
+lego .ep4:hover,
+lego .ep4.active {
+    color: #e6f96bf2;
+    background-color: #080c0384;
+    transform: scale(1.1);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+}
+
+lego .ep4cadr1 {
+    background: url('./Img/fon03.jpg');
+    width: 1400px;
+    height: 1866px;
+}
+
+lego .ep4text1 {
+    background-color: #38383632;
+    padding-top: 111px;
+    padding-left: 828px;
+    border-radius: 44px;
 }
 
 

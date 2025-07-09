@@ -4,7 +4,7 @@ export default function Zaliv() {
     return (
         <zaliv>
             <div className='zal'>
-                Красота Современных Технологий
+                the Beauty of Modern Teechnology
             </div>
             <div className='zalblock'></div>
         </zaliv>
