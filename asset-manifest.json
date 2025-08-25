@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/art-community/static/css/main.c8add89e.css",
-    "main.js": "/art-community/static/js/main.6e827f84.js",
+    "main.css": "/art-community/static/css/main.002526a8.css",
+    "main.js": "/art-community/static/js/main.14eb933b.js",
     "static/media/sova.jpg": "/art-community/static/media/sova.e33c69d3b4b241d53276.jpg",
     "static/media/sok222.jpg": "/art-community/static/media/sok222.f1abc267b321d3574305.jpg",
     "static/media/sok33.jpg": "/art-community/static/media/sok33.3ee8741ebb4c65335a3f.jpg",
@@ -136,8 +136,8 @@
     "static/media/ep3cadr6.jpg": "/art-community/static/media/ep3cadr6.eaa81c4bf1c082bc3715.jpg",
     "static/media/ep3cadr19.jpg": "/art-community/static/media/ep3cadr19.64ae18a200c2187b8c4f.jpg",
     "static/media/cadr26ep2.jpg": "/art-community/static/media/cadr26ep2.b5d55ea96a49c34d120d.jpg",
+    "static/media/fon7.jpg": "/art-community/static/media/fon7.85aa9a233dc68e19cf29.jpg",
     "static/media/ep3cadr7.jpg": "/art-community/static/media/ep3cadr7.2ec5a94631e237cfef6b.jpg",
-    "static/media/fon6.jpg": "/art-community/static/media/fon6.7b8d1d223f215fd1aafd.jpg",
     "static/media/cadr38ep2.jpg": "/art-community/static/media/cadr38ep2.a35cc6879d2be4d87ab0.jpg",
     "static/media/ep3cadr3.jpg": "/art-community/static/media/ep3cadr3.2c8892d3013f9a4eba52.jpg",
     "static/media/ep3cadr26.jpg": "/art-community/static/media/ep3cadr26.870a4c3beefb2cb000c7.jpg",
@@ -158,11 +158,11 @@
     "static/media/obr3.jpg": "/art-community/static/media/obr3.f89e3df3637e4bd67b57.jpg",
     "static/media/obr1.jpg": "/art-community/static/media/obr1.e428fb6f2e7dba2a3237.jpg",
     "index.html": "/art-community/index.html",
-    "main.c8add89e.css.map": "/art-community/static/css/main.c8add89e.css.map",
-    "main.6e827f84.js.map": "/art-community/static/js/main.6e827f84.js.map"
+    "main.002526a8.css.map": "/art-community/static/css/main.002526a8.css.map",
+    "main.14eb933b.js.map": "/art-community/static/js/main.14eb933b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8add89e.css",
-    "static/js/main.6e827f84.js"
+    "static/css/main.002526a8.css",
+    "static/js/main.14eb933b.js"
   ]
 }
