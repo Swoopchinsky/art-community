@@ -58,13 +58,13 @@ export default function Header() {
     return (
         <header>
             <div>
-                <span className='logo'> Il Yooh.    Igarjn Looking.  Anoosh Po.     Ivn Sila.</span>
+                <span className='logo'> JavaScript. React. Node.js. VS. GitHub. npm</span>
             </div>
             <BsFillPersonLinesFill onClick={() => setNigaYo(nigaYo = !nigaYo)} className={`pers ${nigaYo && 'active'}`} />
             {nigaYo && (
                 <div className='pers1'>
-                    <div className='pers2'>Команда</div>
-                    <div className='iga'>Garri Looking</div>
+                    <div className='pers2'>KamshCrew</div>
+                    <div className='iga'>Igarjnch</div>
                     <GiMuscleUp onClick={() => setNigaYo3(nigaYo3 = !nigaYo3)} className={`iga1 ${nigaYo3 && 'active'}`} />
                     {nigaYo3 && (
                         <div className='iga2'>

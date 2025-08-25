@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #f6feee;
+    background: #ffffff;
     color: #070f10;
     font-family: "Roboto:ital,wght@0,100..900;1,100..900", "Monomakh", serif;
     font-weight: 200;
@@ -25,12 +25,13 @@ header {
 
 header .logo {
     font-weight: 450;
-    background-color: #88f31e3c;
-    font-size: 44px;
-    margin-left: 230px;
-    margin-top: 30px;
-    padding: 3px;
+    color: rgb(69, 35, 69);
+    background-color: #d3f1b6a9;
+    font-size: 67px;
+    margin-left: 0px;
+    padding: 4px;
     border-radius: 24px;
+
 
 }
 
@@ -155,15 +156,15 @@ header .pole2 {
 }
 
 header .menu {
-    font-size: 88px;
-    color: #cff96c;
-    background-color: #6a4143a5;
+    font-size: 100px;
+    color: #d7f6a1;
+    background-color: #4e04807e;
     cursor: pointer;
     transition: color, transform 500ms ease;
-    margin-left: 50px;
+    margin-left: 450px;
     border-style: solid;
     border-color: yellow;
-    border-radius: 44px;
+    border-radius: 50px;
 }
 
 header .menu:hover,
@@ -179,8 +180,8 @@ header .menu.active {
 
 header .menu1 {
     position: absolute;
-    top: 120px;
-    left: 120px;
+    top: -722px;
+    left: 0px;
     width: 700px;
     height: 766px;
     padding: 16px;
@@ -195,12 +196,13 @@ header .menu1 {
 
 header .menu2 {
     position: absolute;
-    font-size: 50px;
+    font-size: 100px;
     border-style: solid;
-    border-radius: 20px;
+    border-radius: 50px;
     background-color: #e081cc5a;
     padding: 5px;
-    left: 420px;
+    left: 500px;
+    top: 810px;
     bottom: 26px;
     transition: color, transform 500ms ease;
     cursor: pointer;
@@ -211,7 +213,7 @@ header .menu2.active {
     color: #e1e2f5;
     background-color: #171c109a;
     transform: scale(1.2);
-    border-radius: 20px;
+    border-radius: 50px;
     -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
     -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
     box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
@@ -222,20 +224,21 @@ header .menu3 {
     width: 1310px;
     height: 1730px;
     background: url('./Img/sova.jpg') no-repeat;
-    top: 760px;
-    margin-left: -100px;
+    top: 947px;
+    margin-left: 6px;
     padding: 8px;
     padding-left: 50px;
     border-radius: 40px;
 }
 
 header .menu4 {
-    font-size: 46px;
+    font-size: 50px;
     border-radius: 20px;
     border-style: solid;
     padding: 6px;
-    margin-left: 10px;
+    margin-left: 110px;
     transition: color, transform 500ms ease;
+    color: springgreen;
     background-color: transparent;
     cursor: pointer;
 
@@ -305,15 +308,15 @@ header .menu9 {
 }
 
 header .pers {
-    font-size: 88px;
-    color: #a3f34e8c;
-    background-color: #424709a2;
+    font-size: 100px;
+    color: #08440bdc;
+    background-color: #e1f0d5e6;
     cursor: pointer;
     transition: color, transform 500ms ease;
     margin-left: 90px;
-    border-radius: 44px;
+    border-radius: 50px;
     border-style: solid;
-    border-color: #f5f587df;
+    border-color: #339712;
 }
 
 header .pers:hover,
@@ -329,28 +332,27 @@ header .pers.active {
 
 header .pers1 {
     position: absolute;
-    top: 120px;
-    left: 18px;
+    top: -560px;
+    left: 218px;
     width: 700px;
     height: 766px;
-    background-color: #defddb;
+    background-color: #f0fcef;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
-    border-radius: 30px;
+    border-radius: 68px;
     border-style: solid;
     z-index: 1000;
 }
 
 header .pers2 {
     font-size: 56px;
-    color: #fee105;
-    background-color: #3b723b75;
-    border-radius: 28px;
-
-    padding: 8px;
+    color: #f6efbb;
+    background-color: #07570763;
+    border-radius: 43px;
+    padding: 10px;
     position: absolute;
-    left: 250px;
+    left: 200px;
 }
 
 header .iga {
@@ -809,15 +811,15 @@ header .tel11 {
 }
 
 header .goo {
-    font-size: 88px;
+    font-size: 100px;
     color: #e4f803e7;
     background-color: rgba(62, 65, 45, 0.354);
     cursor: pointer;
     transition: color, transform 500ms ease;
-    margin-left: 50px;
+    margin-left: 450px;
     border-style: solid;
-    border-color: #faf0ec;
-    border-radius: 22px;
+    border-color: #ecfaed;
+    border-radius: 50px;
 
 }
 
@@ -836,14 +838,14 @@ header .goo.active {
 
 header .goo1 {
     position: absolute;
-    top: 120px;
-    left: 230px;
+    top: -580px;
+    left: 420px;
     width: 740px;
     height: 766px;
     padding-left: 20px;
     padding-top: 20px;
     font-size: 50px;
-    background-color: #eff89f;
+    background-color: #f6f9dc;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
@@ -6971,11 +6973,11 @@ lego .ep4text1 {
 
 
 lego .legoblock {
-    background: url('./Img/fon6.jpg') no-repeat;
+    background: url('./Img/fon7.jpg') no-repeat;
     border-radius: 40px;
-    left: 200px;
-    width: 1000px;
-    height: 580px;
+    left: 0px;
+    width: 1400px;
+    height: 646px;
     font-size: 55px;
     position: relative;
 }
