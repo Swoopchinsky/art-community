@@ -64,24 +64,26 @@ export default function Header() {
             {nigaYo && (
                 <div className='pers1'>
                     <div className='pers2'>KamshCrew</div>
-                    <div className='iga'>Igarjnch</div>
+                    <div className='iga'>IB Looking</div>
                     <GiMuscleUp onClick={() => setNigaYo3(nigaYo3 = !nigaYo3)} className={`iga1 ${nigaYo3 && 'active'}`} />
                     {nigaYo3 && (
                         <div className='iga2'>
-                            JavaScript. <br />
-                            React JS. <br />
-                            GitHub Pages. <br />
-                            +7 921 593 63 24 <br />
-                            UX, CSS, HTML.
+                            jun wed developer NodeJS<br />
+                            npx create-react-app vak  <br />
+                            A huge thank you to The Community from this opportunity <br />
+                            cd vak <br />
+                            npm start <br />
+                            после этого будет запущет ряд инструментальных программ, также запустится отладочный вэб-сервер http:localhost:3000/ <br />
+
 
                             <BsTelephone onClick={() => setNigaYo4(nigaYo4 = !nigaYo4)} className={`tel ${nigaYo4 && 'active'}`} />
                             {nigaYo4 && (
                                 <div className='tel1'>
-                                    <div>Игарян</div>
+                                    <div>Игорь Борисович Л.</div>
                                     <address>+7 921 593 63 24</address>
-                                    <div>WhatsApp</div>
-                                    <div>Telegram</div>
-                                    <div>Санкт-Петерберг</div>
+                                    <div>Шлите манету на карту сбера. </div>
+                                    <div>Картины Маслом </div>
+                                    <div>Украшения из титана и янтаря</div>
                                 </div>
                             )}
                         </div>
@@ -92,70 +94,81 @@ export default function Header() {
                     <GiScrollUnfurled onClick={() => setNigaYo5(nigaYo5 = !nigaYo5)} className={`dim1 ${nigaYo5 && 'active'}`} />
                     {nigaYo5 && (
                         <div className='dim2'>
-                            Дизайн Интерьеров. Техническая Документация и сопровождение проекта.
-                            Репетиторство: подготовка к поступлению в Художественные ВУЗы. Реальная практика день за днем.
+                            Дизайн Интерьеров. Техническая Документация и сопровождение проекта. <br />
+                            Репетиторство: подготовка к поступлению ВУЗ. <br />
+                            Реальная практика день за днем. <br />
+                            Идеальный вкус и острое чувство Прекрасного. <br />
+                            Использование современных технологий дизайнаю <br />
+
                             <GiRotaryPhone onClick={() => setNigaYo6(nigaYo6 = !nigaYo6)} className={`tel2 ${nigaYo6 && 'active'}`} />
                             {nigaYo6 && (
                                 <div className='tel3'>
                                     <div>Masterpisman</div>
-                                    <div>incognita</div>
-                                    <div>WhatsApp</div>
-                                    <div>Telegram</div>
-                                    <div>Санкт-Петербург</div>
+                                    <div>Гений современности классического стиля. <br /> </div>
+                                    <div>Модные светосочетания и оттенки. <br /> </div>
+                                    <div>Связь через IB Looking <br /> </div>
+                                    <div>Реализация проектов в Санкт-Петербурге и обл.</div>
                                 </div>
                             )}
                         </div>
                     )}
-                    <div className='il'>Ilioos Yohan</div>
+                    <div className='il'>Il Yohin</div>
                     <GiGClef onClick={() => setNigaYo7(nigaYo7 = !nigaYo7)} className={`il1 ${nigaYo7 && 'active'}`} />
                     {nigaYo7 && (
                         <div className='il2'>
                             <ul>
-
-                                Человек Звук. Кантри Рок
+                                <p>Человек Звук. </p>
+                                <p>Мастерски владеет самыми поуляными утилитами в сфере записи и обработки звука. <br /></p>
+                                <p>Аранжировка, запись звука, бас-гитара, Варган. <br /></p>
+                                <p>Музыка - вид искусства, в котором определенным образом организованные звуки используются для создания формы, гармонии, мелодии, ритма. <br /></p>
                             </ul>
                             <GiMadScientist onClick={() => setNigaYo8(nigaYo8 = !nigaYo8)} className={`tel4 ${nigaYo8 && 'active'}`} />
                             {nigaYo8 && (
                                 <div className='tel5'>
-                                    <div>Илья Дмитрич</div>
+                                    <div>Илья Дмитрич Ю.</div>
                                     <div>+7 968 188 60 13</div>
-                                    <div>WhatsApp</div>
-                                    <div>Telegram</div>
-                                    <div>Санкт-Петербург</div>
+                                    <div>Создаст мелодию на Ваш вкус.</div>
+                                    <div>Индивидуальный подход.</div>
+                                    <div>Идеальный слух.</div>
                                 </div>
                             )}
                         </div>
                     )}
-                    <div className='an'>Dron Megavolt</div>
+                    <div className='an'>AYo Megavolt</div>
                     <GiFireDash onClick={() => setNigaYo9(nigaYo9 = !nigaYo9)} className={`an1 ${nigaYo9 && 'active'}`} />
                     {nigaYo9 && (
                         <div className='an2'>
-                            <div>Электрик.
-                                Штробление с применением системы циклонного фильтра, который минимизирует запыленность помещения.
+                            <p>Андрей Юрич С. <br /></p>
+                            <p>Электричество - Electricus - Совокупность явлений, обусловленных существованием, взаимодействием и движением электрических зарядов.</p>
+                            <div>Инженерный уровень мышления, обширный спектр скилов, специалист технолог.
+
                             </div>
                             <GiJupiter onClick={() => setNigaYo10(nigaYo10 = !nigaYo10)} className={`tel6 ${nigaYo10 && 'active'}`} />
                             {nigaYo10 && (
                                 <div className='tel7'>
-                                    <div>Андрей Юрич </div>
-                                    <div>+7 952 214 47 50</div>
-                                    <div>WhatsApp</div>
-                                    <div>Telegram</div>
+                                    <div>Андрей Юрич С. </div>
+                                    <div>Владения всеми видами технического оборудования.</div>
+
                                     <div>Санкт-Петербург</div>
                                 </div>
                             )}
                         </div>
                     )}
-                    <div className='ju'>Julvern</div>
+                    <div className='ju'>Miting RA</div>
                     <GiWaveSurfer onClick={() => setNigaYo11(nigaYo11 = !nigaYo11)} className={`ju1 ${nigaYo11 && 'active'}`} />
                     {nigaYo11 && (
-                        <div className='ju2'>yo
+                        <div className='ju2'>
+                            <p>Эфективность фотографии, способность создавать рабочую атмосферу для получения наилучших кадров.<br /></p>
+                            <p>Масстерская фото съёмка. <br /></p>
+                            <p>Фотография - технология записи изображения путем регистрации оптических излучений с помощью светочувствительного фотоматериала или полупроводникового преобразователя.</p>
+
                             <GiFamilyHouse onClick={() => setNigaYo12(nigaYo12 = !nigaYo12)} className={`tel8 ${nigaYo12 && 'active'}`} />
                             {nigaYo12 && (
                                 <div className='tel9'>
-                                    <div>Julvern</div>
-                                    <div>inkognito</div>
-                                    <div>WhatsApp</div>
-                                    <div>Telegram</div>
+                                    <div>Роман Александровичь М.</div>
+                                    <div>Про Фотограф. </div>
+                                    <div>Креативное мышление.</div>
+                                    <div>Обсолютное видедие ракурса и переспективы.</div>
                                     <div>Санкт-Петербург</div>
                                 </div>
                             )}
@@ -164,14 +177,20 @@ export default function Header() {
                     <div className='iv'>Ivn Swed</div>
                     <GiAstronautHelmet onClick={() => setNigaYo13(nigaYo13 = !nigaYo13)} className={`iv1 ${nigaYo13 && 'active'}`} />
                     {nigaYo13 && (
-                        <div className='iv2'>Чистота и Порядок.
+                        <div className='iv2'>
+                            <p>Организация и проведение инженерно технических работ любой сложности. <br /> </p>
+                            <p>Реконструкции ИТП, замена оборудования, контроль качества. <br /></p>
+                            <p>огненно сварочные работы, разработка проекта, вычесление объёмов матеала, изготовлениеи зелов лубой конфигурации.</p>
+                            <p>Подключение Камуникация в любых условиях.</p>
+
                             <GiDwarfFace onClick={() => setNigaYo14(nigaYo14 = !nigaYo14)} className={`tel10 ${nigaYo14 && 'active'}`} />
                             {nigaYo14 && (
                                 <div className='tel11'>
-                                    <div>Иванч</div>
-                                    <tel>inkognito</tel>
-                                    <div>WhatsApp</div>
-                                    <div>Telegram</div>
+                                    <div>Иван</div>
+                                    <tel>Основа Цивилизации.</tel>
+                                    <div>Оптимальные технические решения, логика и порядок.<br /></div>
+
+
                                     <div> Санкт-Петербург </div>
                                 </div>
                             )}

@@ -387,17 +387,17 @@ header .iga1.active {
 }
 
 header .iga2 {
-    font-size: 60px;
+    font-size: 40px;
     position: absolute;
     left: 640px;
-    width: 700px;
+    width: 510px;
     height: 766px;
     padding-left: 30px;
     border-radius: 30px;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
-    background-color: #c7fcbd;
+    background-color: #d7fad0;
 }
 
 header .tel {
@@ -408,8 +408,8 @@ header .tel {
     border-radius: 28px;
     cursor: pointer;
     transition: color, transform 500ms ease;
-    margin-top: -24px;
-    margin-left: 40px;
+    margin-top: 10px;
+    margin-left: 220px;
 }
 
 header .tel:hover,
@@ -420,6 +420,10 @@ header .tel.active {
 }
 
 header .tel1 {
+    font-size: 38px;
+    margin-left: 90px;
+    margin-top: 10px;
+    width: 330px;
     background-color: #b8fda1;
     padding: 10px;
     padding-left: 20px;
@@ -437,7 +441,7 @@ header .dim {
     margin: 10px;
     padding: 6px;
     border-radius: 30px;
-    background-color: #d6fab4;
+    background-color: #d3fcad;
 }
 
 header .dim1 {
@@ -461,17 +465,17 @@ header .dim1.active {
 }
 
 header .dim2 {
-    font-size: 60px;
+    font-size: 40px;
     position: absolute;
     left: 640px;
-    width: 700px;
+    width: 510px;
     height: 766px;
     padding-left: 30px;
     border-radius: 30px;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
-    background-color: #d6fab4;
+    background-color: #e7fbd5;
 }
 
 header .tel2 {
@@ -482,8 +486,8 @@ header .tel2 {
     border-radius: 28px;
     cursor: pointer;
     transition: color, transform 500ms ease;
-    margin-left: 530px;
-    margin-top: -30px;
+    margin-left: 220px;
+    margin-top: 40px;
 }
 
 header .tel2:hover,
@@ -535,30 +539,30 @@ header .il1.active {
 }
 
 header .il2 {
-    font-size: 60px;
+    font-size: 40px;
     position: absolute;
     left: 640px;
-    width: 700px;
+    width: 510px;
     height: 766px;
     padding-left: 30px;
     border-radius: 30px;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
-    background-color: #d7ffca;
+    background-color: #defad4;
 }
 
 header .tel4 {
     font-size: 60px;
     color: #0a1709;
     position: absolute;
-    background-color: #d5ffd7;
+    background-color: #a6f546;
     padding: 12px;
-    border-radius: 28px;
+    border-radius: 40px;
     cursor: pointer;
     transition: color, transform 500ms ease;
-    margin-left: 568px;
-    margin-top: -50px;
+    margin-left: 210px;
+    margin-top: 0px;
 
 }
 
@@ -570,10 +574,11 @@ header .tel4.active {
 }
 
 header .tel5 {
-    background-color: #d7ffca;
+    background-color: #eaffe3;
     padding: 10px;
-    padding-left: 20px;
-    margin-top: 48px;
+    padding-left: 30px;
+    margin-top: 88px;
+    margin-left: 20px;
     border-radius: 30px;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
@@ -588,7 +593,7 @@ header .an {
     margin: 10px;
     padding: 6px;
     border-radius: 30px;
-    background-color: #c7e6b0;
+    background-color: #e2fdce;
 }
 
 header .an1 {
@@ -598,7 +603,7 @@ header .an1 {
     top: 400px;
     left: 560px;
     color: #0d0a02;
-    background-color: #c7e6b0;
+    background-color: #ebfedd;
     padding: 6px;
     border-radius: 30px;
     transition: color, transform 500ms ease;
@@ -612,17 +617,17 @@ header .an1.active {
 }
 
 header .an2 {
-    font-size: 60px;
+    font-size: 40px;
     position: absolute;
     left: 640px;
-    width: 700px;
+    width: 510px;
     height: 766px;
     padding-left: 30px;
     border-radius: 30px;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
-    background-color: #c7e6b0;
+    background-color: #f4ffe3;
 }
 
 header .tel6 {
@@ -649,7 +654,7 @@ header .tel6.active {
 }
 
 header .tel7 {
-    background-color: #c7e6b0;
+    background-color: #f7ffdf;
     padding: 10px;
     padding-left: 20px;
     margin-top: 78px;
@@ -667,7 +672,7 @@ header .ju {
     margin: 10px;
     padding: 6px;
     border-radius: 30px;
-    background-color: #dcfda9;
+    background-color: #e0fdb5ce;
 }
 
 header .ju1 {
@@ -676,8 +681,8 @@ header .ju1 {
     position: absolute;
     top: 500px;
     left: 560px;
-    color: #0d0a02;
-    background-color: #dcfda9;
+    color: #e9f15d;
+    background-color: #000000;
     padding: 6px;
     border-radius: 30px;
     transition: color, transform 500ms ease;
@@ -685,47 +690,48 @@ header .ju1 {
 
 header .ju1:hover,
 header .ju1.active {
-    color: #dcfda9;
-    background-color: #050604;
+    color: #369321;
+    background-color: #eafcd9;
     transform: scale(1.4);
 }
 
 header .ju2 {
-    font-size: 60px;
+    font-size: 40px;
     position: absolute;
     left: 640px;
-    width: 700px;
+    width: 510px;
     height: 766px;
     padding-left: 30px;
     border-radius: 30px;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
-    background-color: #dcfda9;
+    background-color: #f1fae2;
 }
 
 header .tel8 {
     font-size: 60px;
-    color: #192f12;
+    color: #f6f8f6;
     position: absolute;
-    background-color: #dcfda9;
+    background-color: #b2ed5acf;
     padding: 12px;
     border-radius: 28px;
     cursor: pointer;
     transition: color, transform 500ms ease;
-    margin-left: 124px;
-    margin-top: -50px;
+    margin-left: 400px;
+    margin-top: -55px;
 }
 
 header .tel8:hover,
 header .tel8.active {
-    color: #dcfda9;
-    background-color: #0b180c;
+    color: #fbfcf9;
+    background-color: #1f6014b2;
     transform: scale(1.3);
 }
 
 header .tel9 {
-    background-color: #dcfda9;
+    margin-top: 30px;
+    background-color: #e2fabd;
     padding: 10px;
     padding-left: 20px;
     border-radius: 30px;
@@ -742,7 +748,7 @@ header .iv {
     margin: 10px;
     padding: 6px;
     border-radius: 30px;
-    background-color: #bbe779;
+    background-color: #e2feb8;
 }
 
 header .iv1 {
@@ -766,17 +772,17 @@ header .iv1.active {
 }
 
 header .iv2 {
-    font-size: 60px;
+    font-size: 40px;
     position: absolute;
     left: 640px;
-    width: 700px;
+    width: 510px;
     height: 766px;
     padding-left: 30px;
     border-radius: 30px;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
-    background-color: #bbe779;
+    background-color: #f5ffe6;
 }
 
 header .tel10 {
@@ -788,22 +794,23 @@ header .tel10 {
     border-radius: 28px;
     cursor: pointer;
     transition: color, transform 500ms ease;
-    margin-left: 20px;
-    margin-top: 10px;
+    margin-left: 350px;
+    margin-top: -10px;
 }
 
 header .tel10:hover,
 header .tel10.active {
-    color: #bbe779;
-    background-color: #18230a;
+    color: #f3f9ea;
+    background-color: #0a0d07;
     transform: scale(1.4);
 }
 
 header .tel11 {
-    background-color: #bbe779;
+    background-color: #e9fec9;
+    font-size: 40px;
     padding: 10px;
     padding-left: 20px;
-    margin-top: 34px;
+    margin-top: 80px;
     border-radius: 30px;
     -webkit-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
     -moz-box-shadow: -13px 18px 19px 11px rgba(34, 60, 80, 0.17);
@@ -6959,14 +6966,14 @@ lego .ep4.active {
 }
 
 lego .ep4cadr1 {
-    background: url('./Img/fon03.jpg');
+    background: url('./Comics/ep4/ep4cadr1.jpg');
     width: 1400px;
-    height: 1866px;
+    height: 3031px;
 }
 
 lego .ep4text1 {
     background-color: #38383632;
-    padding-top: 111px;
+    padding-top: 110px;
     padding-left: 828px;
     border-radius: 44px;
 }
