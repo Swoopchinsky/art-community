@@ -150,6 +150,11 @@ export default function Lego() {
     let [nigaLe128, setNigaLe128] = useState(false)
 
     let [nigaLe129, setNigaLe129] = useState(false)
+    let [nigaLe130, setNigaLe130] = useState(false)
+    let [nigaLe131, setNigaLe131] = useState(false)
+    let [nigaLe132, setNigaLe132] = useState(false)
+    let [nigaLe133, setNigaLe133] = useState(false)
+    let [nigaLe134, setNigaLe134] = useState(false)
 
 
     return (
@@ -1027,7 +1032,37 @@ export default function Lego() {
                             <button onClick={() => setNigaLe129(nigaLe129 = !nigaLe129)} className={`ep4 ${nigaLe129 && 'active'}`} >Episod 4</button>
                             {nigaLe129 && (
                                 <div className='ep4cadr1'>
-                                    <p className='ep4text1'>in development</p>
+                                    <p className='ep4text1'>Meanwhile, Marty fights the training robot</p>
+                                    <button onClick={() => setNigaLe130(nigaLe130 = !nigaLe130)} className={`ep4but1 ${nigaLe130 && 'active'}`}>move</button>
+                                    {nigaLe130 && (
+                                        <div className='ep4cadr2'>
+                                            <p className='ep4text2'>Time to win</p>
+                                            <button onClick={() => setNigaLe131(nigaLe131 = !nigaLe131)} className={`ep4but2 ${nigaLe131 && 'active'}`}>forward</button>
+                                            {nigaLe131 && (
+                                                <div className='ep4cadr3'>
+                                                    <p className='ep4text3'>khockout</p>
+                                                    <button onClick={() => setNigaLe132(nigaLe132 = !nigaLe132)} className={`ep4but3 ${nigaLe132 && 'active'}`}>rage</button>
+                                                    {nigaLe132 && (
+                                                        <div className='ep4cadr4'>
+                                                            <p className='ep4text4'>suddenly</p>
+                                                            <button onClick={() => setNigaLe133(nigaLe133 = !nigaLe133)} className={`ep4but4 ${nigaLe133 && 'active'}`}>Target</button>
+                                                            {nigaLe133 && (
+                                                                <div className='ep4cadr5'>
+                                                                    <p className='ep4text5'>top shot</p>
+                                                                    <button onClick={() => setNigaLe134(nigaLe134 = !nigaLe134)} className={`ep4but4 ${nigaLe134 && 'active'}`}>confident</button>
+                                                                    {nigaLe134 && (
+                                                                        <div className='ep4cadr6'>
+                                                                            <p className='ep4text6'>finish the workout</p>
+                                                                        </div>
+                                                                    )}
+                                                                </div>
+                                                            )}
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            )}
+                                        </div>
+                                    )}
                                 </div>
                             )}
                         </div>
