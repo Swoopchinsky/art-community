@@ -1,11 +1,16 @@
 {
   "files": {
-    "main.css": "/art-community/static/css/main.1256fe45.css",
-    "main.js": "/art-community/static/js/main.666735c5.js",
+    "main.css": "/art-community/static/css/main.62a8bf13.css",
+    "main.js": "/art-community/static/js/main.ccb32bd5.js",
     "static/media/sova.jpg": "/art-community/static/media/sova.e33c69d3b4b241d53276.jpg",
+    "static/media/ep4cadr6.jpg": "/art-community/static/media/ep4cadr6.0ed0d2c7412b66df57b5.jpg",
     "static/media/ep4cadr1.jpg": "/art-community/static/media/ep4cadr1.9104b52f57d92a7d35ac.jpg",
     "static/media/sok222.jpg": "/art-community/static/media/sok222.f1abc267b321d3574305.jpg",
+    "static/media/ep4cadr3.jpg": "/art-community/static/media/ep4cadr3.8d66b15b9ac6c4a08d70.jpg",
+    "static/media/ep4cadr4.jpg": "/art-community/static/media/ep4cadr4.73aef495c1c2c90f3fee.jpg",
     "static/media/sok33.jpg": "/art-community/static/media/sok33.3ee8741ebb4c65335a3f.jpg",
+    "static/media/ep4cadr5.jpg": "/art-community/static/media/ep4cadr5.e95f82f931daaf22deec.jpg",
+    "static/media/ep4cadr2.jpg": "/art-community/static/media/ep4cadr2.bfb92d84ac0e83c70d58.jpg",
     "static/media/sok333.jpg": "/art-community/static/media/sok333.6c74fa9f0774262f719a.jpg",
     "static/media/sok111.jpg": "/art-community/static/media/sok111.375d9a87af9720b65c65.jpg",
     "static/media/fon04.jpg": "/art-community/static/media/fon04.1539898eb0c82b0c5878.jpg",
@@ -158,11 +163,11 @@
     "static/media/obr3.jpg": "/art-community/static/media/obr3.f89e3df3637e4bd67b57.jpg",
     "static/media/obr1.jpg": "/art-community/static/media/obr1.e428fb6f2e7dba2a3237.jpg",
     "index.html": "/art-community/index.html",
-    "main.1256fe45.css.map": "/art-community/static/css/main.1256fe45.css.map",
-    "main.666735c5.js.map": "/art-community/static/js/main.666735c5.js.map"
+    "main.62a8bf13.css.map": "/art-community/static/css/main.62a8bf13.css.map",
+    "main.ccb32bd5.js.map": "/art-community/static/js/main.ccb32bd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.1256fe45.css",
-    "static/js/main.666735c5.js"
+    "static/css/main.62a8bf13.css",
+    "static/js/main.ccb32bd5.js"
   ]
 }
