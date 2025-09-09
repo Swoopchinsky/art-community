@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/art-community/static/css/main.d26f4b04.css",
-    "main.js": "/art-community/static/js/main.b0959eda.js",
+    "main.css": "/art-community/static/css/main.5466f94b.css",
+    "main.js": "/art-community/static/js/main.bd4029c5.js",
     "static/media/sova.jpg": "/art-community/static/media/sova.e33c69d3b4b241d53276.jpg",
+    "static/media/ep4cadr20.jpg": "/art-community/static/media/ep4cadr20.0c842e2962ab4a6abf30.jpg",
+    "static/media/ep4cadr19.jpg": "/art-community/static/media/ep4cadr19.eff9d96e5d58f1404fc8.jpg",
     "static/media/ep4cadr7.jpg": "/art-community/static/media/ep4cadr7.9e805c325d9ed8410647.jpg",
     "static/media/ep4cadr6.jpg": "/art-community/static/media/ep4cadr6.0ed0d2c7412b66df57b5.jpg",
     "static/media/ep4cadr12.jpg": "/art-community/static/media/ep4cadr12.65149d731e4081a02aab.jpg",
@@ -17,6 +19,7 @@
     "static/media/sok33.jpg": "/art-community/static/media/sok33.3ee8741ebb4c65335a3f.jpg",
     "static/media/ep4cadr5.jpg": "/art-community/static/media/ep4cadr5.e95f82f931daaf22deec.jpg",
     "static/media/ep4cadr2.jpg": "/art-community/static/media/ep4cadr2.bfb92d84ac0e83c70d58.jpg",
+    "static/media/ep4cadr18.jpg": "/art-community/static/media/ep4cadr18.f4e9a17b9b22b303c6d1.jpg",
     "static/media/ep4cadr15.jpg": "/art-community/static/media/ep4cadr15.549e14bdd967474e1527.jpg",
     "static/media/ep4cadr10.jpg": "/art-community/static/media/ep4cadr10.cffd282f4bb300bd2e19.jpg",
     "static/media/ep4cadr11.jpg": "/art-community/static/media/ep4cadr11.d05b7657d20e41fa0104.jpg",
@@ -174,11 +177,11 @@
     "static/media/obr3.jpg": "/art-community/static/media/obr3.f89e3df3637e4bd67b57.jpg",
     "static/media/obr1.jpg": "/art-community/static/media/obr1.e428fb6f2e7dba2a3237.jpg",
     "index.html": "/art-community/index.html",
-    "main.d26f4b04.css.map": "/art-community/static/css/main.d26f4b04.css.map",
-    "main.b0959eda.js.map": "/art-community/static/js/main.b0959eda.js.map"
+    "main.5466f94b.css.map": "/art-community/static/css/main.5466f94b.css.map",
+    "main.bd4029c5.js.map": "/art-community/static/js/main.bd4029c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.d26f4b04.css",
-    "static/js/main.b0959eda.js"
+    "static/css/main.5466f94b.css",
+    "static/js/main.bd4029c5.js"
   ]
 }
